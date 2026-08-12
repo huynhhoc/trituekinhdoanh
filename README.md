@@ -125,18 +125,25 @@ Rubric dự án/cuối kỳ gồm: lập trình 25%, cơ sở lý luận 25%, v�
 
 ## Cấu trúc kho học liệu
 
+### Tài liệu lý thuyết
+
+- [Chương 1 — Nền tảng DSS, BI và BA](tai-lieu/chuong1/Chuong%201_Gioithieu.pdf)
+- [Chương 2 — Phân tích mô tả và BI](tai-lieu/chuong2/Chuong%202_%20Phan%20tich%20hoc%20mo%20ta.pdf)
+- [Chương 3 — Phân tích dự đoán](tai-lieu/chuong3/Chuong%203_%20Phan%20tich%20hoc%20du%20doan.pdf)
+
+Tài liệu lý thuyết trên repository được phát hành ở định dạng PDF để có thể
+xem trực tiếp trên GitHub. File PowerPoint dùng để biên tập được lưu cục bộ.
+
 ```text
 .
 ├── tai-lieu/
-│   ├── chuong1/       # Slide lý thuyết Chương 1
-│   └── chuong2/       # Slide lý thuyết Chương 2
-│   └── chuong3/       # Slide lý thuyết Chương 3
-│   └── chuong4/       # Slide lý thuyết Chương 4
+│   ├── chuong1/       # Tài liệu PDF Chương 1
+│   ├── chuong2/       # Tài liệu PDF Chương 2
+│   └── chuong3/       # Tài liệu PDF Chương 3
 └── src/
     ├── chuong1/       # Notebook Python nền tảng
     ├── chuong2/       # Notebook phân tích mô tả
     └── chuong3/       # Notebook phân tích dự đoán
-    └── chuong4/       # Notebook phân tích đề xuất
 ```
 
 Các notebook tự sinh dữ liệu mô phỏng, không phụ thuộc file dữ liệu bên ngoài.
