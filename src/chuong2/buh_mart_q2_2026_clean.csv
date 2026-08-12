@@ -1,0 +1,901 @@
+﻿line_id,order_id,order_date,region,city,category,quantity,unit_price,discount,sales,profit,marketing_cost,category_missing,profit_missing,category_display,sales_outlier,month
+L00001,DH0008,2026-06-17,Miền Nam,TP.HCM,Gia dụng,6,29000,0.0,174000,,45000,False,True,Gia dụng,False,2026-06
+L00002,DH0132,2026-04-17,Miền Bắc,Hà Nội,Đồ uống,3,52000,0.15,133000,23000.0,58000,False,False,Đồ uống,False,2026-04
+L00003,DH0100,2026-04-03,Miền Bắc,Hà Nội,Văn phòng phẩm,2,53000,0.1,95000,40000.0,55000,False,False,Văn phòng phẩm,False,2026-04
+L00004,DH0264,2026-05-29,Miền Nam,TP.HCM,Văn phòng phẩm,4,55000,0.05,209000,57000.0,15000,False,False,Văn phòng phẩm,False,2026-05
+L00005,DH0497,2026-05-04,Miền Trung,Đà Nẵng,Thực phẩm,1,24000,0.05,23000,4000.0,45000,False,False,Thực phẩm,False,2026-05
+L00006,DH0434,2026-05-13,Miền Bắc,Hà Nội,Thực phẩm,2,65000,0.05,124000,27000.0,29000,False,False,Thực phẩm,False,2026-05
+L00007,DH0423,2026-04-08,Miền Nam,TP.HCM,Thực phẩm,2,109000,0.1,196000,76000.0,67000,False,False,Thực phẩm,False,2026-04
+L00008,DH0357,2026-05-04,Miền Nam,TP.HCM,Thực phẩm,6,49000,0.0,294000,74000.0,55000,False,False,Thực phẩm,False,2026-05
+L00009,DH0453,2026-05-29,Miền Bắc,Hải Phòng,Đồ uống,2,85000,0.1,153000,50000.0,14000,False,False,Đồ uống,False,2026-05
+L00010,DH0327,2026-05-03,Miền Bắc,Hà Nội,Đồ uống,3,49000,0.0,147000,54000.0,28000,False,False,Đồ uống,False,2026-05
+L00011,DH0475,2026-06-15,Miền Nam,Cần Thơ,Văn phòng phẩm,5,45000,0.0,225000,49000.0,35000,False,False,Văn phòng phẩm,False,2026-06
+L00012,DH0116,2026-06-11,Miền Nam,Cần Thơ,Gia dụng,1,120000,0.1,108000,43000.0,68000,False,False,Gia dụng,False,2026-06
+L00013,DH0134,2026-06-04,Miền Nam,TP.HCM,Văn phòng phẩm,2,91000,0.0,182000,41000.0,54000,False,False,Văn phòng phẩm,False,2026-06
+L00014,DH0462,2026-06-22,Miền Trung,Đà Nẵng,Gia dụng,2,98000,0.0,196000,63000.0,60000,False,False,Gia dụng,False,2026-06
+L00015,DH0531,2026-06-05,Miền Bắc,Hà Nội,Thực phẩm,1,188000,0.0,188000,56000.0,19000,False,False,Thực phẩm,False,2026-06
+L00016,DH0140,2026-04-17,Miền Bắc,Hà Nội,Chăm sóc cá nhân,4,66000,0.1,238000,90000.0,43000,False,False,Chăm sóc cá nhân,False,2026-04
+L00017,DH0120,2026-06-18,Miền Trung,Đà Nẵng,Đồ uống,2,65000,0.1,117000,37000.0,53000,False,False,Đồ uống,False,2026-06
+L00018,DH0120,2026-05-30,Miền Nam,Cần Thơ,Văn phòng phẩm,4,70000,0.05,266000,38000.0,26000,False,False,Văn phòng phẩm,False,2026-05
+L00019,DH0178,2026-04-09,Miền Bắc,Hà Nội,Thực phẩm,5,126000,0.1,567000,141000.0,67000,False,False,Thực phẩm,False,2026-04
+L00020,DH0399,2026-04-28,Miền Trung,Huế,Thực phẩm,5,101000,0.1,454000,80000.0,23000,False,False,Thực phẩm,False,2026-04
+L00021,DH0225,2026-04-16,Miền Trung,Huế,Gia dụng,3,44000,0.0,132000,24000.0,61000,False,False,Gia dụng,False,2026-04
+L00022,DH0402,2026-06-27,Miền Nam,Cần Thơ,Thực phẩm,2,46000,0.05,87000,20000.0,57000,False,False,Thực phẩm,False,2026-06
+L00023,DH0495,2026-06-06,Miền Bắc,Hà Nội,Thực phẩm,6,78000,0.1,421000,174000.0,66000,False,False,Thực phẩm,False,2026-06
+L00024,DH0095,2026-06-23,Miền Nam,Cần Thơ,Thực phẩm,1,83000,0.1,75000,16000.0,58000,False,False,Thực phẩm,False,2026-06
+L00025,DH0279,2026-04-26,Miền Trung,Đà Nẵng,Đồ uống,5,82000,0.05,390000,121000.0,49000,False,False,Đồ uống,False,2026-04
+L00026,DH0442,2026-05-28,Miền Nam,TP.HCM,Thực phẩm,3,85000,0.0,12000000,4500000.0,47000,False,False,Thực phẩm,True,2026-05
+L00027,DH0361,2026-05-25,Miền Nam,Cần Thơ,Thực phẩm,6,61000,0.05,348000,99000.0,20000,False,False,Thực phẩm,False,2026-05
+L00028,DH0388,2026-06-08,Miền Nam,Cần Thơ,Thực phẩm,1,87000,0.05,83000,35000.0,14000,False,False,Thực phẩm,False,2026-06
+L00029,DH0277,2026-04-11,Miền Bắc,Hà Nội,Thực phẩm,3,88000,0.0,264000,82000.0,34000,False,False,Thực phẩm,False,2026-04
+L00030,DH0191,2026-05-17,Miền Nam,Cần Thơ,Đồ uống,4,44000,0.0,176000,72000.0,33000,False,False,Đồ uống,False,2026-05
+L00031,DH0289,2026-05-29,Miền Bắc,Hà Nội,Thực phẩm,3,38000,0.0,114000,24000.0,28000,False,False,Thực phẩm,False,2026-05
+L00032,DH0087,2026-06-15,Miền Trung,Huế,Chăm sóc cá nhân,6,74000,0.1,400000,123000.0,34000,False,False,Chăm sóc cá nhân,False,2026-06
+L00033,DH0007,2026-05-30,Miền Bắc,Hà Nội,Thực phẩm,6,55000,0.0,330000,55000.0,30000,False,False,Thực phẩm,False,2026-05
+L00034,DH0104,2026-05-11,Miền Trung,Đà Nẵng,Đồ uống,3,35000,0.0,105000,42000.0,19000,False,False,Đồ uống,False,2026-05
+L00035,DH0048,2026-05-12,Miền Bắc,Hải Phòng,Đồ uống,3,94000,0.05,268000,88000.0,51000,False,False,Đồ uống,False,2026-05
+L00036,DH0243,2026-05-01,Miền Nam,TP.HCM,Thực phẩm,1,80000,0.05,76000,30000.0,24000,False,False,Thực phẩm,False,2026-05
+L00037,DH0037,2026-04-15,Miền Bắc,Hà Nội,Thực phẩm,5,124000,0.0,620000,263000.0,36000,False,False,Thực phẩm,False,2026-04
+L00038,DH0199,2026-04-26,Miền Trung,Huế,Thực phẩm,6,65000,0.0,390000,151000.0,58000,False,False,Thực phẩm,False,2026-04
+L00039,DH0409,2026-04-14,Miền Nam,TP.HCM,Thực phẩm,2,68000,0.1,122000,54000.0,15000,False,False,Thực phẩm,False,2026-04
+L00040,DH0086,2026-04-21,Miền Bắc,Hà Nội,Thực phẩm,6,35000,0.0,210000,81000.0,62000,False,False,Thực phẩm,False,2026-04
+L00041,DH0437,2026-06-17,Miền Nam,Cần Thơ,Thực phẩm,3,125000,0.15,319000,87000.0,67000,False,False,Thực phẩm,False,2026-06
+L00042,DH0277,2026-05-18,Miền Nam,Cần Thơ,Thực phẩm,3,87000,0.0,261000,82000.0,44000,False,False,Thực phẩm,False,2026-05
+L00043,DH0259,2026-04-09,Miền Nam,TP.HCM,Gia dụng,2,99000,0.0,198000,88000.0,42000,False,False,Gia dụng,False,2026-04
+L00044,DH0166,2026-05-10,Miền Nam,Cần Thơ,Đồ uống,5,59000,0.0,295000,117000.0,27000,False,False,Đồ uống,False,2026-05
+L00045,DH0260,2026-04-25,Miền Nam,Cần Thơ,Gia dụng,6,64000,0.0,384000,169000.0,9000,False,False,Gia dụng,False,2026-04
+L00046,DH0428,2026-05-31,Miền Nam,TP.HCM,Chăm sóc cá nhân,2,77000,0.05,146000,34000.0,47000,False,False,Chăm sóc cá nhân,False,2026-05
+L00047,DH0166,2026-06-15,Miền Nam,Cần Thơ,Thực phẩm,2,47000,0.05,89000,32000.0,8000,False,False,Thực phẩm,False,2026-06
+L00048,DH0451,2026-04-02,Miền Trung,Huế,Đồ uống,5,47000,0.0,235000,45000.0,69000,False,False,Đồ uống,False,2026-04
+L00049,DH0084,2026-05-13,Miền Bắc,Hà Nội,Gia dụng,2,162000,0.0,324000,107000.0,15000,False,False,Gia dụng,False,2026-05
+L00050,DH0425,2026-05-11,Miền Bắc,Hà Nội,Gia dụng,1,77000,0.05,73000,18000.0,56000,False,False,Gia dụng,False,2026-05
+L00051,DH0342,2026-06-30,Miền Nam,TP.HCM,Chăm sóc cá nhân,6,48000,0.15,245000,59000.0,9000,False,False,Chăm sóc cá nhân,False,2026-06
+L00052,DH0017,2026-05-04,Miền Bắc,Hải Phòng,Đồ uống,5,35000,0.0,175000,36000.0,66000,False,False,Đồ uống,False,2026-05
+L00053,DH0043,2026-04-16,Miền Nam,TP.HCM,Thực phẩm,6,39000,0.1,211000,58000.0,9000,False,False,Thực phẩm,False,2026-04
+L00054,DH0056,2026-04-18,Miền Bắc,Hải Phòng,Thực phẩm,2,76000,0.05,144000,49000.0,34000,False,False,Thực phẩm,False,2026-04
+L00055,DH0331,2026-05-14,Miền Bắc,Hải Phòng,Đồ uống,4,43000,0.0,172000,74000.0,14000,False,False,Đồ uống,False,2026-05
+L00056,DH0262,2026-05-25,Miền Bắc,Hải Phòng,Gia dụng,4,40000,0.0,160000,70000.0,37000,False,False,Gia dụng,False,2026-05
+L00057,DH0252,2026-04-30,Miền Trung,Huế,Thực phẩm,6,60000,0.1,324000,95000.0,57000,False,False,Thực phẩm,False,2026-04
+L00058,DH0194,2026-05-10,Miền Bắc,Hà Nội,Chăm sóc cá nhân,4,77000,0.1,277000,52000.0,26000,False,False,Chăm sóc cá nhân,False,2026-05
+L00059,DH0296,2026-05-31,Miền Trung,Đà Nẵng,Thực phẩm,4,117000,0.05,445000,166000.0,25000,False,False,Thực phẩm,False,2026-05
+L00060,DH0330,2026-04-28,Miền Nam,TP.HCM,Thực phẩm,6,45000,0.05,256000,49000.0,39000,False,False,Thực phẩm,False,2026-04
+L00061,DH0284,2026-06-27,Miền Trung,Đà Nẵng,Đồ uống,6,48000,0.0,288000,98000.0,57000,False,False,Đồ uống,False,2026-06
+L00062,DH0308,2026-04-20,Miền Trung,Đà Nẵng,Thực phẩm,3,78000,0.0,234000,35000.0,50000,False,False,Thực phẩm,False,2026-04
+L00063,DH0327,2026-06-25,Miền Nam,Cần Thơ,Thực phẩm,5,53000,0.05,252000,47000.0,55000,False,False,Thực phẩm,False,2026-06
+L00064,DH0307,2026-06-19,Miền Bắc,Hải Phòng,Đồ uống,4,96000,0.0,384000,162000.0,56000,False,False,Đồ uống,False,2026-06
+L00065,DH0505,2026-06-27,Miền Nam,TP.HCM,Văn phòng phẩm,1,53000,0.0,53000,13000.0,60000,False,False,Văn phòng phẩm,False,2026-06
+L00066,DH0154,2026-06-12,Miền Nam,Cần Thơ,Chăm sóc cá nhân,2,36000,0.0,72000,12000.0,41000,False,False,Chăm sóc cá nhân,False,2026-06
+L00067,DH0095,2026-05-19,Miền Trung,Huế,Chăm sóc cá nhân,6,48000,0.05,274000,97000.0,43000,False,False,Chăm sóc cá nhân,False,2026-05
+L00068,DH0101,2026-05-26,Miền Nam,TP.HCM,Thực phẩm,3,33000,0.0,99000,29000.0,51000,False,False,Thực phẩm,False,2026-05
+L00069,DH0278,2026-04-19,Miền Nam,Cần Thơ,Thực phẩm,4,52000,0.15,177000,35000.0,44000,False,False,Thực phẩm,False,2026-04
+L00070,DH0225,2026-05-02,Miền Bắc,Hà Nội,Gia dụng,3,81000,0.0,243000,67000.0,29000,False,False,Gia dụng,False,2026-05
+L00071,DH0347,2026-05-13,Miền Nam,Cần Thơ,Văn phòng phẩm,5,67000,0.05,318000,66000.0,29000,False,False,Văn phòng phẩm,False,2026-05
+L00072,DH0064,2026-06-26,Miền Nam,Cần Thơ,Chăm sóc cá nhân,3,62000,0.05,177000,72000.0,8000,False,False,Chăm sóc cá nhân,False,2026-06
+L00073,DH0223,2026-06-12,Miền Nam,TP.HCM,Đồ uống,5,37000,0.0,185000,30000.0,66000,False,False,Đồ uống,False,2026-06
+L00074,DH0416,2026-05-22,Miền Nam,TP.HCM,Chăm sóc cá nhân,4,47000,0.05,179000,74000.0,40000,False,False,Chăm sóc cá nhân,False,2026-05
+L00075,DH0147,2026-05-25,Miền Trung,Đà Nẵng,Thực phẩm,6,55000,0.0,330000,117000.0,13000,False,False,Thực phẩm,False,2026-05
+L00076,DH0062,2026-05-10,Miền Nam,Cần Thơ,Đồ uống,6,73000,0.0,438000,104000.0,64000,False,False,Đồ uống,False,2026-05
+L00077,DH0001,2026-05-09,Miền Nam,Cần Thơ,Đồ uống,3,204000,0.05,581000,199000.0,49000,False,False,Đồ uống,False,2026-05
+L00078,DH0226,2026-06-21,Miền Nam,Cần Thơ,Văn phòng phẩm,1,48000,0.05,46000,8000.0,68000,False,False,Văn phòng phẩm,False,2026-06
+L00079,DH0094,2026-04-01,Miền Bắc,Hà Nội,Thực phẩm,3,100000,0.0,300000,,18000,False,True,Thực phẩm,False,2026-04
+L00080,DH0196,2026-04-30,Miền Nam,Cần Thơ,Chăm sóc cá nhân,3,39000,0.1,105000,38000.0,32000,False,False,Chăm sóc cá nhân,False,2026-04
+L00081,DH0115,2026-05-08,Miền Nam,Cần Thơ,Thực phẩm,5,41000,0.05,195000,39000.0,23000,False,False,Thực phẩm,False,2026-05
+L00082,DH0113,2026-06-03,Miền Nam,TP.HCM,Đồ uống,1,27000,0.1,24000,6000.0,30000,False,False,Đồ uống,False,2026-06
+L00083,DH0081,2026-05-08,Miền Bắc,Hải Phòng,Gia dụng,3,46000,0.05,131000,47000.0,21000,False,False,Gia dụng,False,2026-05
+L00084,DH0177,2026-04-29,Miền Nam,Cần Thơ,Thực phẩm,1,105000,0.0,105000,45000.0,18000,False,False,Thực phẩm,False,2026-04
+L00085,DH0409,2026-04-08,Miền Nam,TP.HCM,Đồ uống,3,65000,0.1,176000,57000.0,47000,False,False,Đồ uống,False,2026-04
+L00086,DH0382,2026-04-24,Miền Bắc,Hà Nội,Gia dụng,2,113000,0.05,215000,73000.0,14000,False,False,Gia dụng,False,2026-04
+L00087,DH0202,2026-04-10,Miền Nam,TP.HCM,Gia dụng,3,52000,0.15,133000,23000.0,29000,False,False,Gia dụng,False,2026-04
+L00088,DH0248,2026-06-03,Miền Bắc,Hà Nội,Đồ uống,6,105000,0.05,598000,101000.0,35000,False,False,Đồ uống,False,2026-06
+L00089,DH0401,2026-05-09,Miền Nam,Cần Thơ,Đồ uống,1,51000,0.1,46000,13000.0,68000,False,False,Đồ uống,False,2026-05
+L00090,DH0189,2026-04-21,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,97000,0.05,553000,83000.0,44000,False,False,Chăm sóc cá nhân,False,2026-04
+L00091,DH0152,2026-05-20,Miền Nam,Cần Thơ,Gia dụng,5,136000,0.05,646000,226000.0,26000,False,False,Gia dụng,False,2026-05
+L00092,DH0443,2026-05-15,Miền Nam,Cần Thơ,Đồ uống,1,59000,0.0,59000,15000.0,26000,False,False,Đồ uống,False,2026-05
+L00093,DH0396,2026-05-14,Miền Nam,TP.HCM,Chăm sóc cá nhân,5,36000,0.1,162000,58000.0,59000,False,False,Chăm sóc cá nhân,False,2026-05
+L00094,DH0245,2026-05-23,Miền Bắc,Hà Nội,Thực phẩm,5,149000,0.1,670000,291000.0,56000,False,False,Thực phẩm,True,2026-05
+L00095,DH0352,2026-05-28,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,44000,0.0,264000,111000.0,43000,False,False,Chăm sóc cá nhân,False,2026-05
+L00096,DH0008,2026-04-18,Miền Nam,Cần Thơ,Chăm sóc cá nhân,1,51000,0.0,51000,23000.0,49000,False,False,Chăm sóc cá nhân,False,2026-04
+L00097,DH0048,2026-04-15,Miền Bắc,Hải Phòng,Đồ uống,1,57000,0.0,57000,24000.0,40000,False,False,Đồ uống,False,2026-04
+L00098,DH0272,2026-06-06,Miền Trung,Huế,Thực phẩm,4,98000,0.0,392000,55000.0,70000,False,False,Thực phẩm,False,2026-06
+L00099,DH0217,2026-06-28,Miền Trung,Huế,Chăm sóc cá nhân,1,89000,0.0,89000,38000.0,69000,False,False,Chăm sóc cá nhân,False,2026-06
+L00100,DH0502,2026-05-20,Miền Nam,Cần Thơ,Văn phòng phẩm,3,88000,0.0,264000,47000.0,63000,False,False,Văn phòng phẩm,False,2026-05
+L00101,DH0511,2026-05-12,Miền Nam,Cần Thơ,Gia dụng,1,58000,0.0,58000,10000.0,47000,False,False,Gia dụng,False,2026-05
+L00102,DH0272,2026-05-27,Miền Bắc,Hải Phòng,Gia dụng,5,60000,0.05,285000,82000.0,15000,False,False,Gia dụng,False,2026-05
+L00103,DH0081,2026-04-04,Miền Trung,Đà Nẵng,Văn phòng phẩm,3,94000,0.0,282000,82000.0,46000,False,False,Văn phòng phẩm,False,2026-04
+L00104,DH0027,2026-05-04,Miền Nam,Cần Thơ,Đồ uống,4,138000,0.05,524000,123000.0,51000,False,False,Đồ uống,False,2026-05
+L00105,DH0249,2026-05-03,Miền Nam,Cần Thơ,Gia dụng,2,37000,0.1,67000,25000.0,33000,False,False,Gia dụng,False,2026-05
+L00106,DH0403,2026-05-09,Miền Nam,Cần Thơ,Gia dụng,5,115000,0.0,575000,208000.0,50000,False,False,Gia dụng,False,2026-05
+L00107,DH0399,2026-06-07,Miền Nam,TP.HCM,Thực phẩm,3,101000,0.0,303000,135000.0,11000,False,False,Thực phẩm,False,2026-06
+L00108,DH0320,2026-05-16,Miền Bắc,Hà Nội,Thực phẩm,5,88000,0.05,418000,166000.0,32000,False,False,Thực phẩm,False,2026-05
+L00109,DH0317,2026-06-17,Miền Trung,Huế,Thực phẩm,6,48000,0.0,288000,80000.0,10000,False,False,Thực phẩm,False,2026-06
+L00110,DH0073,2026-05-13,Miền Trung,Đà Nẵng,Đồ uống,6,69000,0.05,393000,139000.0,41000,False,False,Đồ uống,False,2026-05
+L00111,DH0020,2026-04-04,Miền Nam,Cần Thơ,Thực phẩm,5,78000,0.05,370000,71000.0,20000,False,False,Thực phẩm,False,2026-04
+L00112,DH0336,2026-06-01,Miền Trung,Đà Nẵng,Đồ uống,5,49000,0.0,245000,49000.0,16000,False,False,Đồ uống,False,2026-06
+L00113,DH0054,2026-06-12,Miền Bắc,TP.HCM,Gia dụng,2,112000,0.05,213000,70000.0,58000,False,False,Gia dụng,False,2026-06
+L00114,DH0366,2026-05-23,Miền Nam,TP.HCM,Chăm sóc cá nhân,4,53000,0.05,201000,46000.0,59000,False,False,Chăm sóc cá nhân,False,2026-05
+L00115,DH0337,2026-06-25,Miền Trung,Đà Nẵng,Đồ uống,3,132000,0.05,376000,73000.0,58000,False,False,Đồ uống,False,2026-06
+L00116,DH0447,2026-05-08,Miền Trung,Đà Nẵng,Chăm sóc cá nhân,3,34000,0.15,87000,18000.0,46000,False,False,Chăm sóc cá nhân,False,2026-05
+L00117,DH0451,2026-06-12,Miền Nam,TP.HCM,Đồ uống,3,36000,0.0,108000,17000.0,27000,False,False,Đồ uống,False,2026-06
+L00118,DH0229,2026-04-01,Miền Nam,TP.HCM,Đồ uống,4,28000,0.1,101000,39000.0,10000,False,False,Đồ uống,False,2026-04
+L00119,DH0180,2026-04-04,Miền Nam,Cần Thơ,Thực phẩm,1,91000,0.05,86000,23000.0,23000,False,False,Thực phẩm,False,2026-04
+L00120,DH0486,2026-06-12,Miền Nam,TP.HCM,Thực phẩm,1,44000,0.0,44000,13000.0,67000,False,False,Thực phẩm,False,2026-06
+L00121,DH0527,2026-06-19,Miền Nam,TP.HCM,Chăm sóc cá nhân,2,46000,0.1,83000,37000.0,36000,False,False,Chăm sóc cá nhân,False,2026-06
+L00122,DH0264,2026-05-18,Miền Nam,TP.HCM,Thực phẩm,5,100000,0.05,475000,108000.0,50000,False,False,Thực phẩm,False,2026-05
+L00123,DH0143,2026-06-08,Miền Nam,TP.HCM,Đồ uống,5,144000,0.0,720000,304000.0,45000,False,False,Đồ uống,True,2026-06
+L00124,DH0391,2026-04-30,Miền Nam,Cần Thơ,Đồ uống,1,47000,0.15,40000,16000.0,59000,False,False,Đồ uống,False,2026-04
+L00125,DH0125,2026-06-06,Miền Bắc,Hải Phòng,Gia dụng,6,122000,0.05,695000,151000.0,47000,False,False,Gia dụng,True,2026-06
+L00126,DH0459,2026-05-16,Miền Bắc,Hà Nội,Thực phẩm,1,84000,0.0,84000,14000.0,51000,False,False,Thực phẩm,False,2026-05
+L00127,DH0183,2026-04-28,Miền Nam,TP.HCM,Gia dụng,5,66000,0.1,297000,67000.0,38000,False,False,Gia dụng,False,2026-04
+L00128,DH0515,2026-04-09,Miền Bắc,Hà Nội,Đồ uống,3,38000,0.05,108000,19000.0,10000,False,False,Đồ uống,False,2026-04
+L00129,DH0223,2026-04-16,Miền Bắc,Hải Phòng,Thực phẩm,5,35000,0.05,166000,48000.0,45000,False,False,Thực phẩm,False,2026-04
+L00130,DH0415,2026-06-22,Miền Nam,Cần Thơ,Thực phẩm,3,68000,0.1,184000,55000.0,46000,False,False,Thực phẩm,False,2026-06
+L00131,DH0492,2026-05-11,Miền Nam,Cần Thơ,Đồ uống,5,70000,0.15,298000,108000.0,63000,False,False,Đồ uống,False,2026-05
+L00132,DH0495,2026-06-30,Miền Bắc,Hà Nội,Thực phẩm,6,48000,0.0,288000,123000.0,50000,False,False,Thực phẩm,False,2026-06
+L00133,DH0034,2026-05-03,Miền Bắc,Hà Nội,Gia dụng,1,42000,0.05,40000,16000.0,41000,False,False,Gia dụng,False,2026-05
+L00134,DH0099,2026-04-06,Miền Nam,TP.HCM,Thực phẩm,4,36000,0.0,144000,55000.0,44000,False,False,Thực phẩm,False,2026-04
+L00135,DH0102,2026-04-24,Miền Trung,Đà Nẵng,Thực phẩm,6,77000,0.0,462000,83000.0,40000,False,False,Thực phẩm,False,2026-04
+L00136,DH0159,2026-05-03,Miền Nam,TP.HCM,Thực phẩm,3,89000,0.0,267000,120000.0,56000,False,False,Thực phẩm,False,2026-05
+L00137,DH0051,2026-06-03,Miền Bắc,TP.HCM,Thực phẩm,2,91000,0.0,182000,58000.0,52000,False,False,Thực phẩm,False,2026-06
+L00138,DH0276,2026-06-06,Miền Nam,Cần Thơ,Thực phẩm,6,87000,0.1,470000,70000.0,45000,False,False,Thực phẩm,False,2026-06
+L00139,DH0366,2026-06-07,Miền Bắc,Hải Phòng,Chăm sóc cá nhân,1,52000,0.1,47000,8000.0,33000,False,False,Chăm sóc cá nhân,False,2026-06
+L00140,DH0399,2026-04-29,Miền Trung,Đà Nẵng,Gia dụng,6,135000,0.0,810000,337000.0,55000,False,False,Gia dụng,True,2026-04
+L00141,DH0198,2026-05-05,Miền Trung,Đà Nẵng,Thực phẩm,2,42000,0.05,80000,18000.0,41000,False,False,Thực phẩm,False,2026-05
+L00142,DH0201,2026-05-22,Miền Nam,TP.HCM,Đồ uống,4,85000,0.05,323000,58000.0,23000,False,False,Đồ uống,False,2026-05
+L00143,DH0011,2026-05-26,Miền Nam,TP.HCM,Đồ uống,2,55000,0.1,99000,39000.0,29000,False,False,Đồ uống,False,2026-05
+L00144,DH0418,2026-05-08,Miền Bắc,Hà Nội,Chăm sóc cá nhân,2,40000,0.0,80000,30000.0,13000,False,False,Chăm sóc cá nhân,False,2026-05
+L00145,DH0497,2026-04-18,Miền Bắc,Hà Nội,Thực phẩm,1,49000,0.0,49000,12000.0,16000,False,False,Thực phẩm,False,2026-04
+L00146,DH0060,2026-06-10,Miền Bắc,Hải Phòng,Gia dụng,3,84000,0.0,252000,,63000,False,True,Gia dụng,False,2026-06
+L00147,DH0077,2026-05-18,Miền Nam,TP.HCM,Đồ uống,2,108000,0.0,216000,39000.0,56000,False,False,Đồ uống,False,2026-05
+L00148,DH0346,2026-06-27,Miền Trung,Huế,Đồ uống,6,76000,0.0,456000,149000.0,22000,False,False,Đồ uống,False,2026-06
+L00149,DH0139,2026-06-26,Miền Nam,TP.HCM,Chăm sóc cá nhân,6,18000,0.0,108000,47000.0,10000,False,False,Chăm sóc cá nhân,False,2026-06
+L00150,DH0101,2026-06-20,Miền Bắc,Hải Phòng,Gia dụng,4,92000,0.0,368000,54000.0,12000,False,False,Gia dụng,False,2026-06
+L00151,DH0012,2026-06-27,Miền Nam,Cần Thơ,Đồ uống,5,25000,0.0,125000,46000.0,20000,False,False,Đồ uống,False,2026-06
+L00152,DH0263,2026-05-27,Miền Nam,Cần Thơ,Văn phòng phẩm,2,157000,0.0,314000,66000.0,59000,False,False,Văn phòng phẩm,False,2026-05
+L00153,DH0247,2026-04-28,Miền Trung,Đà Nẵng,Chăm sóc cá nhân,5,73000,0.05,347000,57000.0,16000,False,False,Chăm sóc cá nhân,False,2026-04
+L00154,DH0527,2026-04-15,Miền Trung,Huế,Thực phẩm,3,70000,0.05,200000,56000.0,18000,False,False,Thực phẩm,False,2026-04
+L00155,DH0523,2026-04-10,Miền Nam,Cần Thơ,Thực phẩm,1,104000,0.0,104000,30000.0,53000,False,False,Thực phẩm,False,2026-04
+L00156,DH0139,2026-06-26,Miền Trung,Huế,Đồ uống,5,58000,0.0,290000,109000.0,60000,False,False,Đồ uống,False,2026-06
+L00157,DH0362,2026-04-25,Miền Nam,Cần Thơ,Thực phẩm,2,59000,0.05,112000,48000.0,61000,False,False,Thực phẩm,False,2026-04
+L00158,DH0309,2026-04-03,Miền Bắc,Hải Phòng,Gia dụng,3,56000,0.1,151000,63000.0,68000,False,False,Gia dụng,False,2026-04
+L00159,DH0391,2026-04-04,Miền Nam,TP.HCM,Đồ uống,1,70000,0.0,70000,16000.0,47000,False,False,Đồ uống,False,2026-04
+L00160,DH0535,2026-04-28,Miền Nam,Cần Thơ,Chăm sóc cá nhân,4,68000,0.05,258000,100000.0,52000,False,False,Chăm sóc cá nhân,False,2026-04
+L00161,DH0037,2026-06-29,Miền Nam,TP.HCM,Văn phòng phẩm,2,73000,0.15,124000,37000.0,65000,False,False,Văn phòng phẩm,False,2026-06
+L00162,DH0385,2026-04-26,Miền Bắc,Hà Nội,Gia dụng,6,15000,0.05,86000,25000.0,66000,False,False,Gia dụng,False,2026-04
+L00163,DH0396,2026-04-10,Miền Nam,TP.HCM,Đồ uống,1,63000,0.1,57000,9000.0,8000,False,False,Đồ uống,False,2026-04
+L00164,DH0001,2026-06-01,Miền Nam,Cần Thơ,Đồ uống,1,32000,0.15,27000,8000.0,54000,False,False,Đồ uống,False,2026-06
+L00165,DH0026,2026-04-06,Miền Nam,TP.HCM,Đồ uống,4,225000,0.05,855000,222000.0,49000,False,False,Đồ uống,True,2026-04
+L00166,DH0192,2026-05-15,Miền Nam,Cần Thơ,Thực phẩm,5,94000,0.15,400000,79000.0,61000,False,False,Thực phẩm,False,2026-05
+L00167,DH0274,2026-04-08,Miền Trung,Huế,Đồ uống,5,100000,0.0,500000,178000.0,22000,False,False,Đồ uống,False,2026-04
+L00168,DH0484,2026-04-09,Miền Nam,TP.HCM,Thực phẩm,6,82000,0.05,467000,111000.0,54000,False,False,Thực phẩm,False,2026-04
+L00169,DH0243,2026-05-03,Miền Bắc,Hải Phòng,Đồ uống,1,89000,0.0,89000,37000.0,63000,False,False,Đồ uống,False,2026-05
+L00170,DH0021,2026-04-02,Miền Bắc,Hà Nội,Gia dụng,4,44000,0.05,167000,71000.0,12000,False,False,Gia dụng,False,2026-04
+L00171,DH0181,2026-06-17,Miền Nam,TP.HCM,Gia dụng,3,94000,0.0,282000,42000.0,23000,False,False,Gia dụng,False,2026-06
+L00172,DH0089,2026-05-25,Miền Nam,TP.HCM,Thực phẩm,3,97000,0.15,247000,87000.0,37000,False,False,Thực phẩm,False,2026-05
+L00173,DH0228,2026-06-24,Miền Nam,TP.HCM,Đồ uống,1,72000,0.0,72000,22000.0,62000,False,False,Đồ uống,False,2026-06
+L00174,DH0464,2026-05-15,Miền Trung,Đà Nẵng,Gia dụng,2,94000,0.0,188000,76000.0,64000,False,False,Gia dụng,False,2026-05
+L00175,DH0393,2026-05-21,Miền Nam,Cần Thơ,Văn phòng phẩm,5,107000,0.1,482000,171000.0,30000,False,False,Văn phòng phẩm,False,2026-05
+L00176,DH0502,2026-05-25,Miền Nam,TP.HCM,Văn phòng phẩm,4,66000,0.1,238000,41000.0,67000,False,False,Văn phòng phẩm,False,2026-05
+L00177,DH0134,2026-05-13,Miền Bắc,Hải Phòng,Văn phòng phẩm,3,40000,0.0,120000,19000.0,62000,False,False,Văn phòng phẩm,False,2026-05
+L00178,DH0152,2026-05-22,Miền Nam,TP.HCM,Chăm sóc cá nhân,5,96000,0.05,456000,117000.0,27000,False,False,Chăm sóc cá nhân,False,2026-05
+L00179,DH0530,2026-05-23,Miền Nam,Cần Thơ,Gia dụng,6,132000,0.1,713000,276000.0,66000,False,False,Gia dụng,True,2026-05
+L00180,DH0006,2026-06-21,Miền Trung,Đà Nẵng,Đồ uống,5,39000,0.15,166000,26000.0,16000,False,False,Đồ uống,False,2026-06
+L00181,DH0511,2026-04-28,Miền Bắc,Hà Nội,Văn phòng phẩm,4,112000,0.0,448000,93000.0,26000,False,False,Văn phòng phẩm,False,2026-04
+L00182,DH0011,2026-06-23,Miền Nam,TP.HCM,Đồ uống,4,74000,0.05,281000,118000.0,46000,False,False,Đồ uống,False,2026-06
+L00183,DH0526,2026-04-16,Miền Nam,TP.HCM,Thực phẩm,6,87000,0.05,496000,118000.0,16000,False,False,Thực phẩm,False,2026-04
+L00184,DH0395,2026-04-18,Miền Nam,TP.HCM,Văn phòng phẩm,4,97000,0.1,349000,112000.0,36000,False,False,Văn phòng phẩm,False,2026-04
+L00185,DH0436,2026-04-24,Miền Nam,TP.HCM,Văn phòng phẩm,5,41000,0.05,195000,86000.0,56000,False,False,Văn phòng phẩm,False,2026-04
+L00186,DH0211,2026-06-25,Miền Nam,TP.HCM,Thực phẩm,5,76000,0.0,380000,142000.0,15000,False,False,Thực phẩm,False,2026-06
+L00187,DH0177,2026-04-23,Miền Nam,TP.HCM,Văn phòng phẩm,5,105000,0.15,446000,125000.0,52000,False,False,Văn phòng phẩm,False,2026-04
+L00188,DH0055,2026-06-11,Miền Nam,Cần Thơ,Đồ uống,1,126000,0.15,107000,29000.0,63000,False,False,Đồ uống,False,2026-06
+L00189,DH0517,2026-05-24,Miền Bắc,Hà Nội,Đồ uống,1,98000,0.0,98000,15000.0,64000,False,False,Đồ uống,False,2026-05
+L00190,DH0135,2026-05-29,Miền Trung,Huế,Đồ uống,4,43000,0.0,172000,53000.0,56000,False,False,Đồ uống,False,2026-05
+L00191,DH0447,2026-04-08,Miền Nam,Cần Thơ,Gia dụng,1,73000,0.0,73000,25000.0,50000,False,False,Gia dụng,False,2026-04
+L00192,DH0159,2026-05-31,Miền Trung,Huế,Đồ uống,6,59000,0.05,336000,59000.0,57000,False,False,Đồ uống,False,2026-05
+L00193,DH0192,2026-04-07,Miền Bắc,Hà Nội,Thực phẩm,4,68000,0.0,272000,79000.0,16000,False,False,Thực phẩm,False,2026-04
+L00194,DH0513,2026-05-20,Miền Bắc,Hải Phòng,Thực phẩm,3,109000,0.1,294000,83000.0,43000,False,False,Thực phẩm,False,2026-05
+L00195,DH0138,2026-06-11,Miền Bắc,Hải Phòng,Thực phẩm,4,35000,0.0,140000,54000.0,67000,False,False,Thực phẩm,False,2026-06
+L00196,DH0447,2026-06-23,Miền Nam,Cần Thơ,Gia dụng,5,84000,0.05,399000,83000.0,67000,False,False,Gia dụng,False,2026-06
+L00197,DH0172,2026-06-30,Miền Nam,TP.HCM,Gia dụng,2,81000,0.05,154000,32000.0,45000,False,False,Gia dụng,False,2026-06
+L00198,DH0298,2026-04-22,Miền Trung,Huế,Thực phẩm,3,43000,0.15,110000,31000.0,46000,False,False,Thực phẩm,False,2026-04
+L00199,DH0533,2026-06-09,Miền Nam,TP.HCM,Đồ uống,6,110000,0.1,594000,199000.0,45000,False,False,Đồ uống,False,2026-06
+L00200,DH0381,2026-05-25,Miền Bắc,Hải Phòng,Chăm sóc cá nhân,2,51000,0.1,92000,25000.0,35000,False,False,Chăm sóc cá nhân,False,2026-05
+L00201,DH0267,2026-06-06,Miền Nam,TP.HCM,Gia dụng,4,68000,0.0,272000,53000.0,26000,False,False,Gia dụng,False,2026-06
+L00202,DH0501,2026-06-14,Miền Nam,TP.HCM,Văn phòng phẩm,3,21000,0.0,63000,15000.0,23000,False,False,Văn phòng phẩm,False,2026-06
+L00203,DH0428,2026-05-14,Miền Trung,Đà Nẵng,Đồ uống,1,110000,0.05,104000,18000.0,37000,False,False,Đồ uống,False,2026-05
+L00204,DH0294,2026-04-13,Miền Trung,Huế,Văn phòng phẩm,5,58000,0.0,290000,91000.0,21000,False,False,Văn phòng phẩm,False,2026-04
+L00205,DH0272,2026-06-11,Miền Nam,Cần Thơ,Văn phòng phẩm,2,57000,0.0,114000,28000.0,23000,False,False,Văn phòng phẩm,False,2026-06
+L00206,DH0245,2026-05-27,Miền Bắc,Hà Nội,Văn phòng phẩm,4,128000,0.0,512000,140000.0,13000,False,False,Văn phòng phẩm,False,2026-05
+L00207,DH0441,2026-04-13,Miền Nam,Cần Thơ,Thực phẩm,2,28000,0.05,53000,13000.0,36000,False,False,Thực phẩm,False,2026-04
+L00208,DH0123,2026-05-07,Miền Nam,TP.HCM,Chăm sóc cá nhân,5,98000,0.0,490000,145000.0,45000,False,False,Chăm sóc cá nhân,False,2026-05
+L00209,DH0481,2026-04-14,Miền Nam,TP.HCM,Thực phẩm,6,107000,0.05,610000,,40000,False,True,Thực phẩm,False,2026-04
+L00210,DH0060,2026-06-09,Miền Nam,TP.HCM,Chăm sóc cá nhân,3,27000,0.0,81000,26000.0,17000,False,False,Chăm sóc cá nhân,False,2026-06
+L00211,DH0140,2026-05-01,Miền Nam,TP.HCM,Đồ uống,1,75000,0.0,75000,21000.0,60000,False,False,Đồ uống,False,2026-05
+L00212,DH0034,2026-04-07,Miền Nam,Cần Thơ,Chăm sóc cá nhân,2,56000,0.1,101000,37000.0,50000,False,False,Chăm sóc cá nhân,False,2026-04
+L00213,DH0021,2026-04-26,Miền Nam,Cần Thơ,Đồ uống,6,41000,0.05,234000,40000.0,47000,False,False,Đồ uống,False,2026-04
+L00214,DH0297,2026-05-26,Miền Bắc,Hà Nội,Thực phẩm,2,37000,0.1,67000,23000.0,20000,False,False,Thực phẩm,False,2026-05
+L00215,DH0071,2026-05-24,Miền Nam,TP.HCM,Thực phẩm,2,92000,0.05,175000,31000.0,54000,False,False,Thực phẩm,False,2026-05
+L00216,DH0405,2026-06-17,Miền Bắc,Hải Phòng,Đồ uống,6,113000,0.1,610000,119000.0,52000,False,False,Đồ uống,False,2026-06
+L00217,DH0136,2026-05-03,Miền Bắc,Hà Nội,Đồ uống,2,40000,0.1,72000,17000.0,35000,False,False,Đồ uống,False,2026-05
+L00218,DH0278,2026-05-28,Miền Nam,TP.HCM,Gia dụng,3,43000,0.0,129000,33000.0,51000,False,False,Gia dụng,False,2026-05
+L00219,DH0148,2026-06-25,Miền Nam,TP.HCM,Gia dụng,3,96000,0.05,274000,55000.0,23000,False,False,Gia dụng,False,2026-06
+L00220,DH0347,2026-04-30,Miền Bắc,Hà Nội,Chăm sóc cá nhân,5,199000,0.1,896000,198000.0,43000,False,False,Chăm sóc cá nhân,True,2026-04
+L00221,DH0028,2026-04-03,Miền Nam,Cần Thơ,Văn phòng phẩm,4,33000,0.05,125000,35000.0,34000,False,False,Văn phòng phẩm,False,2026-04
+L00222,DH0445,2026-05-30,Miền Nam,Cần Thơ,Đồ uống,3,34000,0.0,102000,45000.0,38000,False,False,Đồ uống,False,2026-05
+L00223,DH0502,2026-05-25,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,40000,0.05,228000,71000.0,38000,False,False,Chăm sóc cá nhân,False,2026-05
+L00224,DH0369,2026-05-01,Miền Nam,TP.HCM,Đồ uống,4,41000,0.15,139000,48000.0,33000,False,False,Đồ uống,False,2026-05
+L00225,DH0395,2026-05-22,Miền Trung,Huế,Gia dụng,5,113000,0.0,565000,84000.0,23000,False,False,Gia dụng,False,2026-05
+L00226,DH0503,2026-05-31,Miền Bắc,Hải Phòng,Đồ uống,6,41000,0.05,234000,79000.0,35000,False,False,Đồ uống,False,2026-05
+L00227,DH0249,2026-06-14,Miền Trung,Huế,Đồ uống,4,185000,0.0,740000,180000.0,54000,False,False,Đồ uống,True,2026-06
+L00228,DH0300,2026-04-12,Miền Trung,Đà Nẵng,Chăm sóc cá nhân,2,82000,0.0,164000,60000.0,46000,False,False,Chăm sóc cá nhân,False,2026-04
+L00229,DH0050,2026-05-13,Miền Bắc,Hà Nội,Gia dụng,5,106000,0.1,477000,72000.0,44000,False,False,Gia dụng,False,2026-05
+L00230,DH0282,2026-04-26,Miền Bắc,Hải Phòng,Thực phẩm,4,89000,0.0,356000,53000.0,36000,False,False,Thực phẩm,False,2026-04
+L00231,DH0194,2026-05-01,Miền Bắc,Hà Nội,Chăm sóc cá nhân,1,41000,0.0,41000,11000.0,64000,False,False,Chăm sóc cá nhân,False,2026-05
+L00232,DH0059,2026-04-03,Miền Trung,Đà Nẵng,Thực phẩm,2,35000,0.0,70000,10000.0,22000,False,False,Thực phẩm,False,2026-04
+L00233,DH0455,2026-05-09,Miền Nam,TP.HCM,Thực phẩm,6,103000,0.05,587000,193000.0,53000,False,False,Thực phẩm,False,2026-05
+L00234,DH0387,2026-04-08,Miền Nam,TP.HCM,Chăm sóc cá nhân,6,116000,0.05,661000,293000.0,34000,False,False,Chăm sóc cá nhân,True,2026-04
+L00235,DH0052,2026-06-24,Miền Nam,TP.HCM,Đồ uống,5,81000,0.05,385000,63000.0,8000,False,False,Đồ uống,False,2026-06
+L00236,DH0535,2026-05-21,Miền Nam,TP.HCM,Thực phẩm,6,67000,0.0,402000,149000.0,33000,False,False,Thực phẩm,False,2026-05
+L00237,DH0161,2026-05-09,Miền Nam,Cần Thơ,Thực phẩm,3,70000,0.05,200000,56000.0,47000,False,False,Thực phẩm,False,2026-05
+L00238,DH0104,2026-04-22,Miền Trung,Huế,Gia dụng,3,74000,0.0,222000,36000.0,69000,False,False,Gia dụng,False,2026-04
+L00239,DH0130,2026-06-25,Miền Nam,TP.HCM,Đồ uống,2,36000,0.1,65000,24000.0,61000,False,False,Đồ uống,False,2026-06
+L00240,DH0109,2026-05-17,Miền Nam,TP.HCM,Gia dụng,2,68000,0.0,136000,39000.0,58000,False,False,Gia dụng,False,2026-05
+L00241,DH0480,2026-06-29,Miền Bắc,Hải Phòng,Chăm sóc cá nhân,1,67000,0.0,67000,19000.0,68000,False,False,Chăm sóc cá nhân,False,2026-06
+L00242,DH0257,2026-05-31,Miền Nam,Cần Thơ,Đồ uống,4,29000,0.05,110000,31000.0,45000,False,False,Đồ uống,False,2026-05
+L00243,DH0295,2026-06-30,Miền Nam,TP.HCM,Thực phẩm,4,19000,0.1,68000,18000.0,9000,False,False,Thực phẩm,False,2026-06
+L00244,DH0472,2026-06-20,Miền Trung,Đà Nẵng,Đồ uống,6,59000,0.05,336000,107000.0,23000,False,False,Đồ uống,False,2026-06
+L00245,DH0422,2026-06-07,Miền Nam,Cần Thơ,Thực phẩm,4,26000,0.1,94000,29000.0,59000,False,False,Thực phẩm,False,2026-06
+L00246,DH0496,2026-05-03,Miền Nam,TP.HCM,Thực phẩm,4,22000,0.0,88000,21000.0,31000,False,False,Thực phẩm,False,2026-05
+L00247,DH0163,2026-06-10,Miền Nam,TP.HCM,Gia dụng,3,30000,0.15,76000,12000.0,58000,False,False,Gia dụng,False,2026-06
+L00248,DH0454,2026-04-29,Miền Nam,TP.HCM,Thực phẩm,6,73000,0.0,438000,72000.0,30000,False,False,Thực phẩm,False,2026-04
+L00249,DH0270,2026-06-18,Miền Nam,Cần Thơ,Chăm sóc cá nhân,2,65000,0.05,124000,42000.0,22000,False,False,Chăm sóc cá nhân,False,2026-06
+L00250,DH0028,2026-04-29,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,69000,0.05,393000,140000.0,30000,False,False,Chăm sóc cá nhân,False,2026-04
+L00251,DH0136,2026-04-08,Miền Trung,Đà Nẵng,Đồ uống,4,146000,0.05,555000,162000.0,20000,False,False,Đồ uống,False,2026-04
+L00252,DH0252,2026-04-11,Miền Bắc,Hà Nội,Gia dụng,1,84000,0.0,84000,17000.0,17000,False,False,Gia dụng,False,2026-04
+L00253,DH0484,2026-05-12,Miền Nam,TP.HCM,Gia dụng,5,136000,0.1,612000,133000.0,36000,False,False,Gia dụng,False,2026-05
+L00254,DH0118,2026-05-31,Miền Trung,Huế,Thực phẩm,3,72000,0.0,216000,88000.0,69000,False,False,Thực phẩm,False,2026-05
+L00255,DH0095,2026-04-27,Miền Bắc,Hải Phòng,Đồ uống,2,109000,0.1,196000,31000.0,66000,False,False,Đồ uống,False,2026-04
+L00256,DH0498,2026-06-14,Miền Bắc,Hải Phòng,Đồ uống,2,138000,0.0,276000,87000.0,55000,False,False,Đồ uống,False,2026-06
+L00257,DH0457,2026-04-24,Miền Trung,Đà Nẵng,Chăm sóc cá nhân,4,167000,0.0,668000,245000.0,55000,False,False,Chăm sóc cá nhân,True,2026-04
+L00258,DH0282,2026-05-14,Miền Nam,Cần Thơ,Đồ uống,1,60000,0.0,60000,16000.0,48000,False,False,Đồ uống,False,2026-05
+L00259,DH0192,2026-05-01,Miền Trung,Đà Nẵng,Thực phẩm,4,38000,0.05,144000,48000.0,53000,False,False,Thực phẩm,False,2026-05
+L00260,DH0086,2026-05-21,Miền Trung,Đà Nẵng,Văn phòng phẩm,1,68000,0.0,68000,15000.0,30000,False,False,Văn phòng phẩm,False,2026-05
+L00261,DH0231,2026-04-18,Miền Bắc,Hà Nội,Gia dụng,5,125000,0.05,594000,127000.0,62000,False,False,Gia dụng,False,2026-04
+L00262,DH0449,2026-06-27,Miền Nam,TP.HCM,Đồ uống,6,138000,0.05,787000,144000.0,57000,False,False,Đồ uống,True,2026-06
+L00263,DH0488,2026-06-24,Miền Bắc,Hải Phòng,Chăm sóc cá nhân,5,70000,0.05,332000,67000.0,57000,False,False,Chăm sóc cá nhân,False,2026-06
+L00264,DH0292,2026-06-03,Miền Nam,TP.HCM,Gia dụng,6,79000,0.0,474000,67000.0,35000,False,False,Gia dụng,False,2026-06
+L00265,DH0419,2026-05-19,Miền Bắc,Hải Phòng,Chăm sóc cá nhân,5,139000,0.0,695000,263000.0,33000,False,False,Chăm sóc cá nhân,True,2026-05
+L00266,DH0441,2026-06-07,Miền Trung,Huế,Đồ uống,6,72000,0.0,432000,120000.0,62000,False,False,Đồ uống,False,2026-06
+L00267,DH0425,2026-05-13,Miền Nam,TP.HCM,Văn phòng phẩm,2,91000,0.15,155000,49000.0,66000,False,False,Văn phòng phẩm,False,2026-05
+L00268,DH0408,2026-06-20,Miền Nam,TP.HCM,Gia dụng,1,102000,0.0,102000,20000.0,63000,False,False,Gia dụng,False,2026-06
+L00269,DH0290,2026-04-07,Miền Nam,Cần Thơ,Đồ uống,2,60000,0.05,114000,27000.0,42000,False,False,Đồ uống,False,2026-04
+L00270,DH0005,2026-04-20,Miền Bắc,Hà Nội,Thực phẩm,2,45000,0.0,90000,27000.0,18000,False,False,Thực phẩm,False,2026-04
+L00271,DH0223,2026-05-12,Miền Nam,Cần Thơ,Đồ uống,1,209000,0.0,209000,48000.0,44000,False,False,Đồ uống,False,2026-05
+L00272,DH0302,2026-05-30,Miền Nam,TP.HCM,Đồ uống,2,50000,0.0,100000,30000.0,22000,False,False,Đồ uống,False,2026-05
+L00273,DH0106,2026-06-04,Miền Nam,TP.HCM,Đồ uống,5,40000,0.05,190000,31000.0,62000,False,False,Đồ uống,False,2026-06
+L00274,DH0173,2026-06-05,Miền Nam,TP.HCM,Đồ uống,3,59000,0.0,177000,55000.0,66000,False,False,Đồ uống,False,2026-06
+L00275,DH0496,2026-06-25,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,71000,0.1,383000,132000.0,44000,False,False,Chăm sóc cá nhân,False,2026-06
+L00276,DH0097,2026-06-16,Miền Nam,Cần Thơ,Gia dụng,5,76000,0.1,342000,102000.0,49000,False,False,Gia dụng,False,2026-06
+L00277,DH0353,2026-06-23,Miền Nam,Cần Thơ,Thực phẩm,5,57000,0.0,285000,90000.0,17000,False,False,Thực phẩm,False,2026-06
+L00278,DH0128,2026-05-02,Miền Nam,Cần Thơ,Thực phẩm,4,84000,0.1,302000,91000.0,23000,False,False,Thực phẩm,False,2026-05
+L00279,DH0334,2026-06-03,Miền Nam,TP.HCM,Văn phòng phẩm,2,147000,0.0,294000,66000.0,63000,False,False,Văn phòng phẩm,False,2026-06
+L00280,DH0414,2026-06-02,Miền Nam,TP.HCM,Thực phẩm,4,57000,0.0,228000,71000.0,58000,False,False,Thực phẩm,False,2026-06
+L00281,DH0506,2026-05-26,Miền Nam,TP.HCM,Thực phẩm,3,68000,0.05,194000,57000.0,57000,False,False,Thực phẩm,False,2026-05
+L00282,DH0501,2026-05-26,Miền Nam,Cần Thơ,Đồ uống,6,127000,0.0,762000,326000.0,12000,False,False,Đồ uống,True,2026-05
+L00283,DH0492,2026-05-18,Miền Nam,TP.HCM,Đồ uống,5,41000,0.1,184000,39000.0,19000,False,False,Đồ uống,False,2026-05
+L00284,DH0504,2026-05-08,Miền Bắc,Hà Nội,Đồ uống,3,38000,0.05,108000,16000.0,50000,False,False,Đồ uống,False,2026-05
+L00285,DH0237,2026-04-13,Miền Bắc,Hà Nội,Thực phẩm,6,48000,0.1,259000,60000.0,51000,False,False,Thực phẩm,False,2026-04
+L00286,DH0416,2026-04-10,Miền Trung,Huế,,6,63000,0.0,378000,68000.0,32000,True,False,Chưa phân loại,False,2026-04
+L00287,DH0426,2026-04-01,Miền Bắc,Hải Phòng,Thực phẩm,6,101000,0.1,545000,191000.0,28000,False,False,Thực phẩm,False,2026-04
+L00288,DH0350,2026-05-03,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,31000,0.1,167000,28000.0,45000,False,False,Chăm sóc cá nhân,False,2026-05
+L00289,DH0340,2026-05-04,Miền Nam,TP.HCM,Đồ uống,2,48000,0.05,91000,38000.0,14000,False,False,Đồ uống,False,2026-05
+L00290,DH0019,2026-06-27,Miền Bắc,Hà Nội,Thực phẩm,3,39000,0.1,105000,15000.0,30000,False,False,Thực phẩm,False,2026-06
+L00291,DH0028,2026-04-23,Miền Nam,Cần Thơ,Văn phòng phẩm,4,31000,0.05,118000,20000.0,40000,False,False,Văn phòng phẩm,False,2026-04
+L00292,DH0278,2026-04-20,Miền Trung,Đà Nẵng,Gia dụng,4,36000,0.0,144000,20000.0,23000,False,False,Gia dụng,False,2026-04
+L00293,DH0199,2026-04-05,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,94000,0.0,564000,192000.0,11000,False,False,Chăm sóc cá nhân,False,2026-04
+L00294,DH0231,2026-04-11,Miền Bắc,Hà Nội,Thực phẩm,5,69000,0.05,328000,144000.0,41000,False,False,Thực phẩm,False,2026-04
+L00295,DH0410,2026-05-30,Miền Nam,Cần Thơ,Đồ uống,2,71000,0.0,142000,30000.0,22000,False,False,Đồ uống,False,2026-05
+L00296,DH0386,2026-05-04,Miền Nam,TP.HCM,Văn phòng phẩm,2,88000,0.0,176000,72000.0,34000,False,False,Văn phòng phẩm,False,2026-05
+L00297,DH0429,2026-05-27,Miền Nam,Cần Thơ,Thực phẩm,2,81000,0.0,162000,35000.0,17000,False,False,Thực phẩm,False,2026-05
+L00298,DH0261,2026-04-10,Miền Bắc,Hà Nội,Đồ uống,3,81000,0.05,231000,77000.0,46000,False,False,Đồ uống,False,2026-04
+L00299,DH0041,2026-06-09,Miền Nam,TP.HCM,Thực phẩm,1,162000,0.0,162000,65000.0,25000,False,False,Thực phẩm,False,2026-06
+L00300,DH0078,2026-04-25,Miền Nam,Cần Thơ,Đồ uống,1,91000,0.05,86000,30000.0,21000,False,False,Đồ uống,False,2026-04
+L00301,DH0409,2026-04-06,Miền Nam,TP.HCM,Thực phẩm,4,18000,0.0,72000,30000.0,69000,False,False,Thực phẩm,False,2026-04
+L00302,DH0319,2026-06-23,Miền Bắc,Hà Nội,Thực phẩm,6,86000,0.0,516000,153000.0,16000,False,False,Thực phẩm,False,2026-06
+L00303,DH0200,2026-05-03,Miền Nam,Cần Thơ,Đồ uống,6,104000,0.0,624000,227000.0,66000,False,False,Đồ uống,False,2026-05
+L00304,DH0040,2026-04-30,Miền Bắc,Hải Phòng,Chăm sóc cá nhân,3,84000,0.1,227000,84000.0,37000,False,False,Chăm sóc cá nhân,False,2026-04
+L00305,DH0516,2026-04-05,Miền Bắc,Hải Phòng,Đồ uống,2,50000,0.05,95000,43000.0,47000,False,False,Đồ uống,False,2026-04
+L00306,DH0098,2026-05-24,Miền Bắc,Hà Nội,Thực phẩm,3,41000,0.1,111000,24000.0,62000,False,False,Thực phẩm,False,2026-05
+L00307,DH0159,2026-04-26,Miền Nam,TP.HCM,Gia dụng,5,68000,0.0,340000,69000.0,35000,False,False,Gia dụng,False,2026-04
+L00308,DH0151,2026-04-22,Miền Nam,Cần Thơ,Thực phẩm,1,91000,0.0,91000,25000.0,44000,False,False,Thực phẩm,False,2026-04
+L00309,DH0127,2026-06-01,Miền Nam,Cần Thơ,Văn phòng phẩm,1,100000,0.1,90000,24000.0,11000,False,False,Văn phòng phẩm,False,2026-06
+L00310,DH0505,2026-05-31,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,28000,0.0,168000,37000.0,69000,False,False,Chăm sóc cá nhân,False,2026-05
+L00311,DH0157,2026-04-14,Miền Nam,TP.HCM,Gia dụng,5,77000,0.0,385000,58000.0,8000,False,False,Gia dụng,False,2026-04
+L00312,DH0023,2026-04-12,Miền Nam,TP.HCM,Thực phẩm,3,121000,0.0,363000,70000.0,66000,False,False,Thực phẩm,False,2026-04
+L00313,DH0085,2026-04-23,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,95000,0.0,570000,159000.0,38000,False,False,Chăm sóc cá nhân,False,2026-04
+L00314,DH0531,2026-06-11,Miền Nam,Cần Thơ,Đồ uống,2,219000,0.0,438000,69000.0,57000,False,False,Đồ uống,False,2026-06
+L00315,DH0268,2026-04-25,Miền Nam,Cần Thơ,Chăm sóc cá nhân,2,48000,0.15,82000,20000.0,50000,False,False,Chăm sóc cá nhân,False,2026-04
+L00316,DH0456,2026-05-09,Miền Trung,Đà Nẵng,Thực phẩm,3,37000,0.05,105000,35000.0,51000,False,False,Thực phẩm,False,2026-05
+L00317,DH0157,2026-04-12,Miền Bắc,Hải Phòng,Đồ uống,6,100000,0.1,540000,124000.0,54000,False,False,Đồ uống,False,2026-04
+L00318,DH0503,2026-04-17,Miền Nam,Cần Thơ,Thực phẩm,3,134000,0.05,382000,89000.0,22000,False,False,Thực phẩm,False,2026-04
+L00319,DH0485,2026-05-31,Miền Bắc,Hà Nội,Thực phẩm,1,41000,0.0,41000,6000.0,45000,False,False,Thực phẩm,False,2026-05
+L00320,DH0396,2026-06-09,Miền Nam,TP.HCM,Văn phòng phẩm,4,68000,0.15,231000,67000.0,22000,False,False,Văn phòng phẩm,False,2026-06
+L00321,DH0519,2026-06-18,Miền Nam,Cần Thơ,Thực phẩm,1,74000,0.1,67000,21000.0,11000,False,False,Thực phẩm,False,2026-06
+L00322,DH0260,2026-05-21,Miền Nam,TP.HCM,Thực phẩm,3,81000,0.1,219000,97000.0,27000,False,False,Thực phẩm,False,2026-05
+L00323,DH0487,2026-04-26,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,119000,0.05,678000,191000.0,28000,False,False,Chăm sóc cá nhân,True,2026-04
+L00324,DH0430,2026-05-10,Miền Trung,Huế,Chăm sóc cá nhân,2,199000,0.0,398000,145000.0,69000,False,False,Chăm sóc cá nhân,False,2026-05
+L00325,DH0502,2026-04-15,Miền Bắc,Hà Nội,Thực phẩm,1,51000,0.15,43000,9000.0,21000,False,False,Thực phẩm,False,2026-04
+L00326,DH0539,2026-04-22,Miền Nam,Cần Thơ,Chăm sóc cá nhân,1,57000,0.0,57000,10000.0,10000,False,False,Chăm sóc cá nhân,False,2026-04
+L00327,DH0349,2026-05-14,Miền Nam,TP.HCM,Đồ uống,6,33000,0.0,198000,35000.0,63000,False,False,Đồ uống,False,2026-05
+L00328,DH0415,2026-06-11,Miền Nam,TP.HCM,Gia dụng,1,95000,0.0,95000,40000.0,39000,False,False,Gia dụng,False,2026-06
+L00329,DH0066,2026-04-24,Miền Nam,TP.HCM,Đồ uống,2,39000,0.0,78000,20000.0,14000,False,False,Đồ uống,False,2026-04
+L00330,DH0017,2026-05-04,Miền Nam,TP.HCM,Đồ uống,4,70000,0.05,266000,65000.0,22000,False,False,Đồ uống,False,2026-05
+L00331,DH0387,2026-04-04,Miền Nam,Cần Thơ,Văn phòng phẩm,5,82000,0.05,390000,144000.0,68000,False,False,Văn phòng phẩm,False,2026-04
+L00332,DH0237,2026-04-04,Miền Nam,TP.HCM,Văn phòng phẩm,5,123000,0.1,554000,160000.0,19000,False,False,Văn phòng phẩm,False,2026-04
+L00333,DH0380,2026-05-20,Miền Nam,TP.HCM,Gia dụng,5,65000,0.15,276000,73000.0,32000,False,False,Gia dụng,False,2026-05
+L00334,DH0496,2026-06-27,Miền Nam,TP.HCM,Thực phẩm,1,53000,0.1,48000,18000.0,64000,False,False,Thực phẩm,False,2026-06
+L00335,DH0036,2026-05-23,Miền Bắc,Hà Nội,Chăm sóc cá nhân,6,49000,0.1,265000,85000.0,68000,False,False,Chăm sóc cá nhân,False,2026-05
+L00336,DH0181,2026-04-03,Miền Nam,TP.HCM,Thực phẩm,4,105000,0.15,357000,67000.0,69000,False,False,Thực phẩm,False,2026-04
+L00337,DH0166,2026-05-23,Miền Nam,TP.HCM,Thực phẩm,4,56000,0.05,213000,83000.0,13000,False,False,Thực phẩm,False,2026-05
+L00338,DH0029,2026-04-11,Miền Nam,TP.HCM,Đồ uống,5,68000,0.0,340000,48000.0,10000,False,False,Đồ uống,False,2026-04
+L00339,DH0071,2026-06-02,Miền Bắc,Hải Phòng,Thực phẩm,1,94000,0.0,94000,24000.0,62000,False,False,Thực phẩm,False,2026-06
+L00340,DH0310,2026-05-13,Miền Trung,Đà Nẵng,Đồ uống,1,121000,0.0,121000,17000.0,58000,False,False,Đồ uống,False,2026-05
+L00341,DH0102,2026-05-04,Miền Bắc,Hà Nội,Thực phẩm,1,114000,0.05,108000,30000.0,25000,False,False,Thực phẩm,False,2026-05
+L00342,DH0001,2026-04-19,Miền Trung,Đà Nẵng,Đồ uống,5,34000,0.1,153000,32000.0,22000,False,False,Đồ uống,False,2026-04
+L00343,DH0275,2026-04-17,Miền Trung,Đà Nẵng,Chăm sóc cá nhân,6,40000,0.05,228000,44000.0,10000,False,False,Chăm sóc cá nhân,False,2026-04
+L00344,DH0249,2026-05-01,Miền Bắc,Hà Nội,Gia dụng,2,78000,0.05,148000,53000.0,47000,False,False,Gia dụng,False,2026-05
+L00345,DH0471,2026-05-11,Miền Nam,TP.HCM,Chăm sóc cá nhân,1,87000,0.1,78000,13000.0,37000,False,False,Chăm sóc cá nhân,False,2026-05
+L00346,DH0135,2026-05-22,Miền Nam,TP.HCM,Chăm sóc cá nhân,5,75000,0.05,356000,148000.0,64000,False,False,Chăm sóc cá nhân,False,2026-05
+L00347,DH0508,2026-06-02,Miền Trung,Đà Nẵng,Đồ uống,6,122000,0.0,732000,156000.0,33000,False,False,Đồ uống,True,2026-06
+L00348,DH0316,2026-06-27,Miền Nam,Cần Thơ,Văn phòng phẩm,4,136000,0.1,490000,,42000,False,True,Văn phòng phẩm,False,2026-06
+L00349,DH0369,2026-04-03,Miền Bắc,Hải Phòng,Chăm sóc cá nhân,6,64000,0.1,346000,54000.0,39000,False,False,Chăm sóc cá nhân,False,2026-04
+L00350,DH0166,2026-06-25,Miền Bắc,Hải Phòng,Thực phẩm,4,72000,0.1,259000,74000.0,32000,False,False,Thực phẩm,False,2026-06
+L00351,DH0454,2026-05-22,Miền Nam,TP.HCM,Thực phẩm,3,110000,0.1,297000,66000.0,33000,False,False,Thực phẩm,False,2026-05
+L00352,DH0296,2026-04-07,Miền Nam,Cần Thơ,Đồ uống,1,99000,0.0,99000,33000.0,39000,False,False,Đồ uống,False,2026-04
+L00353,DH0382,2026-06-18,Miền Nam,Cần Thơ,Đồ uống,3,41000,0.15,105000,36000.0,67000,False,False,Đồ uống,False,2026-06
+L00354,DH0399,2026-06-17,Miền Trung,Đà Nẵng,Thực phẩm,6,36000,0.05,205000,47000.0,69000,False,False,Thực phẩm,False,2026-06
+L00355,DH0420,2026-04-27,Miền Bắc,Hải Phòng,Thực phẩm,5,29000,0.0,145000,55000.0,32000,False,False,Thực phẩm,False,2026-04
+L00356,DH0044,2026-04-16,Miền Trung,Huế,Đồ uống,3,66000,0.05,188000,68000.0,49000,False,False,Đồ uống,False,2026-04
+L00357,DH0009,2026-04-28,Miền Nam,Cần Thơ,Văn phòng phẩm,6,50000,0.0,300000,85000.0,59000,False,False,Văn phòng phẩm,False,2026-04
+L00358,DH0136,2026-06-13,Miền Nam,Cần Thơ,Văn phòng phẩm,3,48000,0.05,137000,29000.0,12000,False,False,Văn phòng phẩm,False,2026-06
+L00359,DH0194,2026-06-23,Miền Nam,TP.HCM,Thực phẩm,1,32000,0.1,29000,7000.0,43000,False,False,Thực phẩm,False,2026-06
+L00360,DH0048,2026-04-27,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,64000,0.05,365000,142000.0,63000,False,False,Chăm sóc cá nhân,False,2026-04
+L00361,DH0438,2026-05-14,Miền Bắc,Hà Nội,Thực phẩm,6,33000,0.0,198000,33000.0,46000,False,False,Thực phẩm,False,2026-05
+L00362,DH0524,2026-06-05,Miền Nam,TP.HCM,Đồ uống,2,38000,0.0,76000,24000.0,46000,False,False,Đồ uống,False,2026-06
+L00363,DH0310,2026-04-17,Miền Nam,TP.HCM,Thực phẩm,4,56000,0.05,213000,86000.0,43000,False,False,Thực phẩm,False,2026-04
+L00364,DH0070,2026-06-05,Miền Bắc,Hải Phòng,Đồ uống,6,82000,0.05,467000,103000.0,31000,False,False,Đồ uống,False,2026-06
+L00365,DH0126,2026-04-21,Miền Bắc,Hà Nội,Gia dụng,1,67000,0.0,67000,14000.0,23000,False,False,Gia dụng,False,2026-04
+L00366,DH0508,2026-06-17,Miền Bắc,Hải Phòng,Chăm sóc cá nhân,2,90000,0.0,180000,78000.0,48000,False,False,Chăm sóc cá nhân,False,2026-06
+L00367,DH0210,2026-04-13,Miền Nam,Cần Thơ,Đồ uống,1,64000,0.1,58000,12000.0,42000,False,False,Đồ uống,False,2026-04
+L00368,DH0008,2026-06-29,Miền Nam,TP.HCM,Đồ uống,6,54000,0.1,292000,91000.0,55000,False,False,Đồ uống,False,2026-06
+L00369,DH0284,2026-06-05,Miền Bắc,Hà Nội,Đồ uống,1,56000,0.05,53000,19000.0,17000,False,False,Đồ uống,False,2026-06
+L00370,DH0264,2026-04-26,Miền Nam,Cần Thơ,Đồ uống,2,43000,0.1,77000,19000.0,59000,False,False,Đồ uống,False,2026-04
+L00371,DH0036,2026-06-13,Miền Bắc,Hải Phòng,Đồ uống,6,67000,0.0,402000,118000.0,19000,False,False,Đồ uống,False,2026-06
+L00372,DH0376,2026-05-28,Miền Nam,TP.HCM,Chăm sóc cá nhân,6,113000,0.0,678000,158000.0,14000,False,False,Chăm sóc cá nhân,True,2026-05
+L00373,DH0404,2026-05-14,Miền Bắc,Hải Phòng,Đồ uống,4,92000,0.0,368000,55000.0,44000,False,False,Đồ uống,False,2026-05
+L00374,DH0047,2026-06-07,Miền Nam,TP.HCM,Chăm sóc cá nhân,1,91000,0.0,91000,36000.0,47000,False,False,Chăm sóc cá nhân,False,2026-06
+L00375,DH0474,2026-06-02,Miền Bắc,Hà Nội,Thực phẩm,6,78000,0.05,445000,164000.0,38000,False,False,Thực phẩm,False,2026-06
+L00376,DH0093,2026-04-08,Miền Nam,TP.HCM,Thực phẩm,4,73000,0.05,277000,61000.0,16000,False,False,Thực phẩm,False,2026-04
+L00377,DH0230,2026-04-21,Miền Trung,Đà Nẵng,Chăm sóc cá nhân,1,69000,0.05,66000,15000.0,35000,False,False,Chăm sóc cá nhân,False,2026-04
+L00378,DH0388,2026-05-31,Miền Nam,Cần Thơ,Văn phòng phẩm,5,40000,0.1,180000,74000.0,61000,False,False,Văn phòng phẩm,False,2026-05
+L00379,DH0302,2026-05-07,Miền Nam,TP.HCM,Thực phẩm,3,39000,0.0,117000,41000.0,11000,False,False,Thực phẩm,False,2026-05
+L00380,DH0126,2026-04-30,Miền Trung,Đà Nẵng,Thực phẩm,2,42000,0.0,84000,23000.0,23000,False,False,Thực phẩm,False,2026-04
+L00381,DH0298,2026-05-20,Miền Nam,TP.HCM,Gia dụng,1,100000,0.1,90000,15000.0,27000,False,False,Gia dụng,False,2026-05
+L00382,DH0066,2026-04-15,Miền Trung,Đà Nẵng,Đồ uống,1,49000,0.1,44000,9000.0,12000,False,False,Đồ uống,False,2026-04
+L00383,DH0098,2026-06-29,Miền Trung,Huế,Đồ uống,6,87000,0.0,522000,78000.0,51000,False,False,Đồ uống,False,2026-06
+L00384,DH0373,2026-05-21,Miền Bắc,Hà Nội,Đồ uống,3,39000,0.0,117000,36000.0,39000,False,False,Đồ uống,False,2026-05
+L00385,DH0467,2026-04-01,Miền Bắc,Hải Phòng,Thực phẩm,3,58000,0.05,165000,33000.0,42000,False,False,Thực phẩm,False,2026-04
+L00386,DH0013,2026-05-13,Miền Bắc,Hà Nội,Thực phẩm,4,42000,0.0,168000,28000.0,38000,False,False,Thực phẩm,False,2026-05
+L00387,DH0457,2026-06-07,Miền Nam,TP.HCM,Gia dụng,3,90000,0.0,270000,85000.0,42000,False,False,Gia dụng,False,2026-06
+L00388,DH0216,2026-05-23,Miền Bắc,Hải Phòng,Văn phòng phẩm,1,161000,0.1,145000,24000.0,46000,False,False,Văn phòng phẩm,False,2026-05
+L00389,DH0329,2026-05-17,Miền Nam,TP.HCM,Thực phẩm,5,37000,0.0,185000,61000.0,11000,False,False,Thực phẩm,False,2026-05
+L00390,DH0090,2026-05-29,Miền Nam,TP.HCM,Chăm sóc cá nhân,2,75000,0.05,142000,44000.0,49000,False,False,Chăm sóc cá nhân,False,2026-05
+L00391,DH0367,2026-04-03,Miền Nam,Cần Thơ,Gia dụng,4,45000,0.0,180000,66000.0,62000,False,False,Gia dụng,False,2026-04
+L00392,DH0250,2026-05-16,Miền Trung,Huế,Văn phòng phẩm,4,91000,0.15,309000,131000.0,20000,False,False,Văn phòng phẩm,False,2026-05
+L00393,DH0362,2026-05-07,Miền Bắc,Hà Nội,Văn phòng phẩm,1,141000,0.1,127000,35000.0,21000,False,False,Văn phòng phẩm,False,2026-05
+L00394,DH0477,2026-06-22,Miền Bắc,Hải Phòng,Thực phẩm,4,52000,0.05,198000,39000.0,13000,False,False,Thực phẩm,False,2026-06
+L00395,DH0397,2026-05-24,Miền Nam,Cần Thơ,Thực phẩm,2,104000,0.1,187000,35000.0,16000,False,False,Thực phẩm,False,2026-05
+L00396,DH0161,2026-04-17,Miền Nam,Cần Thơ,Chăm sóc cá nhân,5,62000,0.1,279000,49000.0,22000,False,False,Chăm sóc cá nhân,False,2026-04
+L00397,DH0338,2026-06-17,Miền Trung,Đà Nẵng,Đồ uống,5,47000,0.05,223000,94000.0,30000,False,False,Đồ uống,False,2026-06
+L00398,DH0216,2026-04-27,Miền Trung,Đà Nẵng,Chăm sóc cá nhân,2,55000,0.1,99000,19000.0,30000,False,False,Chăm sóc cá nhân,False,2026-04
+L00399,DH0525,2026-06-30,Miền Nam,TP.HCM,Chăm sóc cá nhân,5,112000,0.1,504000,112000.0,14000,False,False,Chăm sóc cá nhân,False,2026-06
+L00400,DH0179,2026-05-03,Miền Bắc,Hà Nội,Chăm sóc cá nhân,4,80000,0.1,288000,50000.0,57000,False,False,Chăm sóc cá nhân,False,2026-05
+L00401,DH0371,2026-06-17,Miền Nam,TP.HCM,Đồ uống,2,64000,0.1,115000,48000.0,34000,False,False,Đồ uống,False,2026-06
+L00402,DH0225,2026-06-10,Miền Nam,TP.HCM,Gia dụng,5,61000,0.05,290000,93000.0,45000,False,False,Gia dụng,False,2026-06
+L00403,DH0364,2026-06-05,Miền Trung,Huế,Thực phẩm,1,50000,0.05,48000,18000.0,33000,False,False,Thực phẩm,False,2026-06
+L00404,DH0233,2026-05-30,Miền Bắc,Hà Nội,Đồ uống,4,89000,0.0,356000,148000.0,34000,False,False,Đồ uống,False,2026-05
+L00405,DH0288,2026-04-03,Miền Trung,Huế,Chăm sóc cá nhân,2,178000,0.0,356000,89000.0,17000,False,False,Chăm sóc cá nhân,False,2026-04
+L00406,DH0517,2026-04-19,Miền Nam,TP.HCM,Thực phẩm,5,61000,0.0,305000,75000.0,36000,False,False,Thực phẩm,False,2026-04
+L00407,DH0176,2026-06-19,Miền Nam,TP.HCM,Thực phẩm,2,41000,0.0,82000,16000.0,36000,False,False,Thực phẩm,False,2026-06
+L00408,DH0416,2026-06-07,Miền Nam,Cần Thơ,Thực phẩm,1,79000,0.0,79000,12000.0,27000,False,False,Thực phẩm,False,2026-06
+L00409,DH0102,2026-05-13,Miền Trung,Đà Nẵng,Thực phẩm,6,85000,0.05,484000,172000.0,43000,False,False,Thực phẩm,False,2026-05
+L00410,DH0474,2026-06-10,Miền Trung,Đà Nẵng,Chăm sóc cá nhân,4,109000,0.05,414000,172000.0,12000,False,False,Chăm sóc cá nhân,False,2026-06
+L00411,DH0226,2026-05-30,Miền Nam,Cần Thơ,Chăm sóc cá nhân,5,38000,0.1,171000,50000.0,53000,False,False,Chăm sóc cá nhân,False,2026-05
+L00412,DH0376,2026-06-10,Miền Nam,TP.HCM,Đồ uống,2,76000,0.05,144000,21000.0,16000,False,False,Đồ uống,False,2026-06
+L00413,DH0363,2026-05-19,Miền Bắc,Hà Nội,Thực phẩm,4,45000,0.0,180000,28000.0,38000,False,False,Thực phẩm,False,2026-05
+L00414,DH0127,2026-04-08,Miền Nam,TP.HCM,Đồ uống,3,125000,0.05,356000,129000.0,26000,False,False,Đồ uống,False,2026-04
+L00415,DH0032,2026-05-08,Miền Nam,TP.HCM,Đồ uống,2,94000,0.0,188000,69000.0,37000,False,False,Đồ uống,False,2026-05
+L00416,DH0467,2026-04-20,Miền Bắc,Hà Nội,Đồ uống,3,61000,0.0,183000,54000.0,15000,False,False,Đồ uống,False,2026-04
+L00417,DH0066,2026-06-18,Miền Nam,TP.HCM,Chăm sóc cá nhân,3,38000,0.05,108000,20000.0,53000,False,False,Chăm sóc cá nhân,False,2026-06
+L00418,DH0182,2026-06-21,Miền Bắc,Hải Phòng,Chăm sóc cá nhân,1,159000,0.1,143000,29000.0,15000,False,False,Chăm sóc cá nhân,False,2026-06
+L00419,DH0003,2026-04-19,Miền Bắc,Hải Phòng,Thực phẩm,6,62000,0.05,353000,127000.0,52000,False,False,Thực phẩm,False,2026-04
+L00420,DH0497,2026-06-20,Miền Nam,TP.HCM,Đồ uống,1,101000,0.0,101000,33000.0,32000,False,False,Đồ uống,False,2026-06
+L00421,DH0350,2026-04-30,Miền Nam,Cần Thơ,Đồ uống,4,27000,0.1,97000,35000.0,18000,False,False,Đồ uống,False,2026-04
+L00422,DH0109,2026-04-19,Miền Nam,TP.HCM,Đồ uống,1,71000,0.0,71000,10000.0,9000,False,False,Đồ uống,False,2026-04
+L00423,DH0449,2026-04-25,Miền Nam,TP.HCM,Văn phòng phẩm,6,95000,0.0,570000,255000.0,31000,False,False,Văn phòng phẩm,False,2026-04
+L00424,DH0497,2026-05-21,Miền Bắc,Hải Phòng,Thực phẩm,2,25000,0.1,45000,15000.0,53000,False,False,Thực phẩm,False,2026-05
+L00425,DH0204,2026-04-22,Miền Nam,Cần Thơ,Đồ uống,6,75000,0.1,405000,63000.0,37000,False,False,Đồ uống,False,2026-04
+L00426,DH0110,2026-04-24,Miền Trung,Đà Nẵng,Văn phòng phẩm,5,119000,0.0,595000,148000.0,28000,False,False,Văn phòng phẩm,False,2026-04
+L00427,DH0106,2026-06-03,Miền Bắc,Hà Nội,Văn phòng phẩm,1,34000,0.05,32000,13000.0,55000,False,False,Văn phòng phẩm,False,2026-06
+L00428,DH0436,2026-05-08,Miền Nam,Cần Thơ,Thực phẩm,2,63000,0.05,120000,53000.0,19000,False,False,Thực phẩm,False,2026-05
+L00429,DH0308,2026-06-03,Miền Bắc,Hải Phòng,Thực phẩm,6,57000,0.1,308000,51000.0,64000,False,False,Thực phẩm,False,2026-06
+L00430,DH0494,2026-04-02,Miền Trung,Đà Nẵng,Đồ uống,4,50000,0.05,190000,47000.0,13000,False,False,Đồ uống,False,2026-04
+L00431,DH0402,2026-04-09,Miền Trung,Huế,Thực phẩm,3,50000,0.0,150000,23000.0,52000,False,False,Thực phẩm,False,2026-04
+L00432,DH0311,2026-04-26,Miền Nam,Cần Thơ,Đồ uống,6,44000,0.0,264000,48000.0,46000,False,False,Đồ uống,False,2026-04
+L00433,DH0451,2026-05-03,Miền Nam,TP.HCM,Đồ uống,4,47000,0.0,188000,75000.0,27000,False,False,Đồ uống,False,2026-05
+L00434,DH0367,2026-04-25,Miền Nam,TP.HCM,Văn phòng phẩm,2,64000,0.0,128000,43000.0,53000,False,False,Văn phòng phẩm,False,2026-04
+L00435,DH0377,2026-05-06,Miền Bắc,Hà Nội,Đồ uống,3,69000,0.0,207000,54000.0,42000,False,False,Đồ uống,False,2026-05
+L00436,DH0021,2026-06-23,Miền Bắc,Hà Nội,Đồ uống,2,36000,0.0,72000,26000.0,58000,False,False,Đồ uống,False,2026-06
+L00437,DH0365,2026-05-12,Miền Trung,Đà Nẵng,Đồ uống,6,50000,0.1,270000,90000.0,36000,False,False,Đồ uống,False,2026-05
+L00438,DH0215,2026-05-24,Miền Trung,Huế,Đồ uống,4,69000,0.1,248000,38000.0,42000,False,False,Đồ uống,False,2026-05
+L00439,DH0002,2026-06-11,Miền Nam,Cần Thơ,Đồ uống,6,114000,0.1,616000,145000.0,47000,False,False,Đồ uống,False,2026-06
+L00440,DH0235,2026-04-17,Miền Nam,TP.HCM,Văn phòng phẩm,1,115000,0.0,115000,19000.0,12000,False,False,Văn phòng phẩm,False,2026-04
+L00441,DH0035,2026-04-14,Miền Trung,Huế,Văn phòng phẩm,2,65000,0.0,130000,46000.0,15000,False,False,Văn phòng phẩm,False,2026-04
+L00442,DH0530,2026-05-09,Miền Nam,Cần Thơ,Văn phòng phẩm,4,70000,0.0,280000,48000.0,16000,False,False,Văn phòng phẩm,False,2026-05
+L00443,DH0111,2026-05-27,Miền Trung,Đà Nẵng,Thực phẩm,4,35000,0.15,119000,42000.0,49000,False,False,Thực phẩm,False,2026-05
+L00444,DH0347,2026-05-15,Miền Nam,Cần Thơ,Văn phòng phẩm,1,68000,0.05,65000,16000.0,60000,False,False,Văn phòng phẩm,False,2026-05
+L00445,DH0240,2026-04-11,Miền Nam,Cần Thơ,Văn phòng phẩm,1,28000,0.1,25000,6000.0,26000,False,False,Văn phòng phẩm,False,2026-04
+L00446,DH0074,2026-05-28,Miền Nam,TP.HCM,Thực phẩm,6,55000,0.1,297000,114000.0,53000,False,False,Thực phẩm,False,2026-05
+L00447,DH0008,2026-06-24,Miền Nam,TP.HCM,Thực phẩm,3,36000,0.0,108000,30000.0,23000,False,False,Thực phẩm,False,2026-06
+L00448,DH0299,2026-05-19,Miền Nam,TP.HCM,Gia dụng,6,47000,0.05,268000,42000.0,43000,False,False,Gia dụng,False,2026-05
+L00449,DH0090,2026-06-21,Miền Nam,Cần Thơ,Đồ uống,5,70000,0.0,350000,75000.0,56000,False,False,Đồ uống,False,2026-06
+L00450,DH0036,2026-05-09,Miền Nam,Cần Thơ,Chăm sóc cá nhân,3,73000,0.15,186000,70000.0,48000,False,False,Chăm sóc cá nhân,False,2026-05
+L00451,DH0150,2026-05-07,Miền Nam,Cần Thơ,Gia dụng,3,117000,0.05,333000,132000.0,59000,False,False,Gia dụng,False,2026-05
+L00452,DH0484,2026-04-29,Miền Nam,TP.HCM,Thực phẩm,3,73000,0.0,219000,98000.0,12000,False,False,Thực phẩm,False,2026-04
+L00453,DH0488,2026-05-18,Miền Trung,Đà Nẵng,Chăm sóc cá nhân,6,52000,0.05,296000,54000.0,35000,False,False,Chăm sóc cá nhân,False,2026-05
+L00454,DH0216,2026-05-23,Miền Trung,Huế,Thực phẩm,4,88000,0.0,352000,145000.0,62000,False,False,Thực phẩm,False,2026-05
+L00455,DH0107,2026-04-10,Miền Bắc,Hà Nội,Đồ uống,5,31000,0.0,155000,67000.0,27000,False,False,Đồ uống,False,2026-04
+L00456,DH0433,2026-06-28,Miền Nam,TP.HCM,Thực phẩm,4,141000,0.1,508000,189000.0,61000,False,False,Thực phẩm,False,2026-06
+L00457,DH0266,2026-04-14,Miền Bắc,Hà Nội,Đồ uống,5,25000,0.05,119000,53000.0,23000,False,False,Đồ uống,False,2026-04
+L00458,DH0303,2026-05-21,Miền Nam,TP.HCM,Thực phẩm,6,89000,0.1,481000,175000.0,41000,False,False,Thực phẩm,False,2026-05
+L00459,DH0072,2026-04-29,Miền Trung,Huế,Đồ uống,4,84000,0.0,336000,148000.0,43000,False,False,Đồ uống,False,2026-04
+L00460,DH0337,2026-06-20,Miền Nam,TP.HCM,Đồ uống,6,51000,0.15,260000,86000.0,35000,False,False,Đồ uống,False,2026-06
+L00461,DH0218,2026-05-29,Miền Bắc,Hải Phòng,Đồ uống,3,54000,0.0,162000,34000.0,47000,False,False,Đồ uống,False,2026-05
+L00462,DH0498,2026-04-02,Miền Bắc,Hải Phòng,Đồ uống,6,33000,0.0,198000,41000.0,10000,False,False,Đồ uống,False,2026-04
+L00463,DH0307,2026-04-03,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,69000,0.15,352000,90000.0,20000,False,False,Chăm sóc cá nhân,False,2026-04
+L00464,DH0164,2026-04-19,Miền Trung,Huế,Chăm sóc cá nhân,3,84000,0.0,252000,99000.0,53000,False,False,Chăm sóc cá nhân,False,2026-04
+L00465,DH0188,2026-06-14,Miền Trung,Huế,Đồ uống,5,51000,0.0,255000,39000.0,19000,False,False,Đồ uống,False,2026-06
+L00466,DH0094,2026-06-18,Miền Bắc,Hải Phòng,Thực phẩm,4,80000,0.0,320000,88000.0,37000,False,False,Thực phẩm,False,2026-06
+L00467,DH0261,2026-05-21,Miền Bắc,Hải Phòng,Chăm sóc cá nhân,6,90000,0.1,486000,208000.0,46000,False,False,Chăm sóc cá nhân,False,2026-05
+L00468,DH0104,2026-05-22,Miền Nam,Cần Thơ,Thực phẩm,2,46000,0.05,87000,21000.0,64000,False,False,Thực phẩm,False,2026-05
+L00469,DH0077,2026-05-29,Miền Nam,Cần Thơ,Gia dụng,5,97000,0.1,436000,63000.0,48000,False,False,Gia dụng,False,2026-05
+L00470,DH0450,2026-05-15,Miền Nam,Cần Thơ,Gia dụng,6,81000,0.05,462000,76000.0,35000,False,False,Gia dụng,False,2026-05
+L00471,DH0098,2026-05-17,Miền Trung,Đà Nẵng,Gia dụng,3,68000,0.15,173000,60000.0,66000,False,False,Gia dụng,False,2026-05
+L00472,DH0107,2026-05-04,Miền Trung,Đà Nẵng,Văn phòng phẩm,3,93000,0.1,251000,102000.0,28000,False,False,Văn phòng phẩm,False,2026-05
+L00473,DH0421,2026-05-15,Miền Nam,Cần Thơ,Đồ uống,6,76000,0.05,433000,70000.0,66000,False,False,Đồ uống,False,2026-05
+L00474,DH0024,2026-04-27,Miền Nam,Cần Thơ,Đồ uống,5,47000,0.1,212000,62000.0,24000,False,False,Đồ uống,False,2026-04
+L00475,DH0448,2026-06-08,Miền Nam,TP.HCM,Văn phòng phẩm,5,49000,0.1,220000,39000.0,36000,False,False,Văn phòng phẩm,False,2026-06
+L00476,DH0049,2026-06-01,Miền Nam,TP.HCM,Thực phẩm,2,73000,0.0,146000,31000.0,43000,False,False,Thực phẩm,False,2026-06
+L00477,DH0053,2026-06-05,Miền Bắc,Hải Phòng,Thực phẩm,1,108000,0.05,103000,24000.0,56000,False,False,Thực phẩm,False,2026-06
+L00478,DH0488,2026-05-04,Miền Trung,Đà Nẵng,Văn phòng phẩm,6,71000,0.0,426000,71000.0,51000,False,False,Văn phòng phẩm,False,2026-05
+L00479,DH0396,2026-05-06,Miền Nam,Cần Thơ,Văn phòng phẩm,1,55000,0.0,55000,9000.0,16000,False,False,Văn phòng phẩm,False,2026-05
+L00480,DH0199,2026-05-10,Miền Trung,Huế,Chăm sóc cá nhân,4,67000,0.0,268000,38000.0,14000,False,False,Chăm sóc cá nhân,False,2026-05
+L00481,DH0231,2026-05-25,Miền Bắc,TP.HCM,Đồ uống,6,39000,0.0,234000,87000.0,49000,False,False,Đồ uống,False,2026-05
+L00482,DH0068,2026-06-10,Miền Nam,Cần Thơ,Thực phẩm,4,110000,0.0,440000,86000.0,9000,False,False,Thực phẩm,False,2026-06
+L00483,DH0474,2026-04-01,Miền Bắc,Hà Nội,Chăm sóc cá nhân,4,124000,0.0,496000,218000.0,16000,False,False,Chăm sóc cá nhân,False,2026-04
+L00484,DH0066,2026-06-26,Miền Nam,TP.HCM,Thực phẩm,3,139000,0.1,375000,64000.0,29000,False,False,Thực phẩm,False,2026-06
+L00485,DH0421,2026-06-18,Miền Bắc,Hải Phòng,Gia dụng,2,98000,0.0,196000,48000.0,58000,False,False,Gia dụng,False,2026-06
+L00486,DH0434,2026-06-30,Miền Nam,TP.HCM,Chăm sóc cá nhân,1,48000,0.0,48000,12000.0,25000,False,False,Chăm sóc cá nhân,False,2026-06
+L00487,DH0012,2026-04-26,Miền Trung,Đà Nẵng,Gia dụng,3,62000,0.1,167000,70000.0,32000,False,False,Gia dụng,False,2026-04
+L00488,DH0342,2026-05-15,Miền Nam,Cần Thơ,Thực phẩm,4,55000,0.0,220000,74000.0,47000,False,False,Thực phẩm,False,2026-05
+L00489,DH0440,2026-05-20,Miền Trung,Đà Nẵng,Gia dụng,5,80000,0.0,400000,159000.0,62000,False,False,Gia dụng,False,2026-05
+L00490,DH0239,2026-04-13,Miền Trung,Huế,Văn phòng phẩm,3,120000,0.0,360000,58000.0,60000,False,False,Văn phòng phẩm,False,2026-04
+L00491,DH0055,2026-05-03,Miền Nam,TP.HCM,Thực phẩm,3,22000,0.05,63000,16000.0,47000,False,False,Thực phẩm,False,2026-05
+L00492,DH0109,2026-04-03,Miền Nam,Cần Thơ,Thực phẩm,4,79000,0.1,284000,122000.0,59000,False,False,Thực phẩm,False,2026-04
+L00493,DH0423,2026-04-11,Miền Nam,Cần Thơ,Gia dụng,5,73000,0.0,365000,120000.0,19000,False,False,Gia dụng,False,2026-04
+L00494,DH0102,2026-05-16,Miền Bắc,Hải Phòng,Đồ uống,5,74000,0.1,333000,143000.0,26000,False,False,Đồ uống,False,2026-05
+L00495,DH0393,2026-04-29,Miền Bắc,Hải Phòng,Thực phẩm,4,88000,0.0,352000,81000.0,42000,False,False,Thực phẩm,False,2026-04
+L00496,DH0188,2026-04-07,Miền Bắc,Hà Nội,Thực phẩm,3,44000,0.05,125000,29000.0,17000,False,False,Thực phẩm,False,2026-04
+L00497,DH0322,2026-06-16,Miền Trung,TP.HCM,Chăm sóc cá nhân,4,100000,0.0,400000,177000.0,39000,False,False,Chăm sóc cá nhân,False,2026-06
+L00498,DH0521,2026-04-11,Miền Bắc,Hà Nội,Chăm sóc cá nhân,1,76000,0.1,68000,22000.0,68000,False,False,Chăm sóc cá nhân,False,2026-04
+L00499,DH0031,2026-04-22,Miền Nam,TP.HCM,Chăm sóc cá nhân,5,60000,0.1,270000,116000.0,38000,False,False,Chăm sóc cá nhân,False,2026-04
+L00500,DH0099,2026-04-22,Miền Bắc,Hà Nội,Đồ uống,4,66000,0.0,264000,64000.0,12000,False,False,Đồ uống,False,2026-04
+L00501,DH0376,2026-05-17,Miền Trung,Đà Nẵng,Đồ uống,1,54000,0.05,51000,17000.0,53000,False,False,Đồ uống,False,2026-05
+L00502,DH0163,2026-06-30,Miền Bắc,Hải Phòng,Văn phòng phẩm,3,68000,0.05,194000,73000.0,38000,False,False,Văn phòng phẩm,False,2026-06
+L00503,DH0148,2026-04-03,Miền Bắc,Hà Nội,Gia dụng,3,85000,0.15,217000,88000.0,42000,False,False,Gia dụng,False,2026-04
+L00504,DH0291,2026-04-15,Miền Nam,TP.HCM,Văn phòng phẩm,2,37000,0.05,70000,14000.0,53000,False,False,Văn phòng phẩm,False,2026-04
+L00505,DH0027,2026-05-01,Miền Trung,Đà Nẵng,Thực phẩm,5,56000,0.0,280000,39000.0,19000,False,False,Thực phẩm,False,2026-05
+L00506,DH0301,2026-04-11,Miền Bắc,Hà Nội,Đồ uống,5,53000,0.0,265000,100000.0,18000,False,False,Đồ uống,False,2026-04
+L00507,DH0054,2026-04-01,Miền Nam,Cần Thơ,Gia dụng,1,64000,0.0,64000,11000.0,50000,False,False,Gia dụng,False,2026-04
+L00508,DH0173,2026-06-23,Miền Nam,Cần Thơ,Đồ uống,6,58000,0.0,348000,101000.0,30000,False,False,Đồ uống,False,2026-06
+L00509,DH0163,2026-04-21,Miền Bắc,Hải Phòng,Thực phẩm,2,30000,0.0,60000,15000.0,44000,False,False,Thực phẩm,False,2026-04
+L00510,DH0277,2026-05-27,Miền Bắc,Hà Nội,Thực phẩm,5,81000,0.05,385000,,65000,False,True,Thực phẩm,False,2026-05
+L00511,DH0326,2026-06-20,Miền Nam,Cần Thơ,Chăm sóc cá nhân,5,112000,0.1,504000,205000.0,16000,False,False,Chăm sóc cá nhân,False,2026-06
+L00512,DH0427,2026-06-07,Miền Trung,Huế,Thực phẩm,5,48000,0.1,216000,91000.0,56000,False,False,Thực phẩm,False,2026-06
+L00513,DH0479,2026-04-04,Miền Bắc,Hải Phòng,Thực phẩm,6,70000,0.0,420000,154000.0,51000,False,False,Thực phẩm,False,2026-04
+L00514,DH0411,2026-05-03,Miền Bắc,Hà Nội,Thực phẩm,4,48000,0.0,192000,38000.0,57000,False,False,Thực phẩm,False,2026-05
+L00515,DH0370,2026-04-05,Miền Nam,Cần Thơ,Văn phòng phẩm,3,72000,0.1,194000,76000.0,20000,False,False,Văn phòng phẩm,False,2026-04
+L00516,DH0370,2026-06-24,Miền Nam,Cần Thơ,Văn phòng phẩm,6,59000,0.0,354000,72000.0,21000,False,False,Văn phòng phẩm,False,2026-06
+L00517,DH0172,2026-05-13,Miền Trung,Đà Nẵng,Thực phẩm,5,107000,0.0,535000,136000.0,32000,False,False,Thực phẩm,False,2026-05
+L00518,DH0499,2026-06-28,Miền Bắc,Hà Nội,Thực phẩm,6,51000,0.0,306000,80000.0,67000,False,False,Thực phẩm,False,2026-06
+L00519,DH0399,2026-05-07,Miền Nam,TP.HCM,Đồ uống,4,87000,0.15,296000,125000.0,12000,False,False,Đồ uống,False,2026-05
+L00520,DH0018,2026-05-21,Miền Trung,Huế,Chăm sóc cá nhân,4,47000,0.05,179000,41000.0,19000,False,False,Chăm sóc cá nhân,False,2026-05
+L00521,DH0520,2026-04-06,Miền Trung,Đà Nẵng,Gia dụng,6,51000,0.1,275000,74000.0,8000,False,False,Gia dụng,False,2026-04
+L00522,DH0091,2026-06-29,Miền Nam,Cần Thơ,Đồ uống,5,69000,0.1,310000,68000.0,28000,False,False,Đồ uống,False,2026-06
+L00523,DH0173,2026-06-18,Miền Nam,TP.HCM,Đồ uống,4,32000,0.0,128000,44000.0,22000,False,False,Đồ uống,False,2026-06
+L00524,DH0063,2026-05-17,Miền Bắc,Hải Phòng,Đồ uống,1,44000,0.0,44000,11000.0,48000,False,False,Đồ uống,False,2026-05
+L00525,DH0016,2026-04-22,Miền Nam,Cần Thơ,Thực phẩm,5,95000,0.1,428000,191000.0,39000,False,False,Thực phẩm,False,2026-04
+L00526,DH0116,2026-05-11,Miền Trung,Đà Nẵng,Thực phẩm,4,48000,0.05,182000,55000.0,33000,False,False,Thực phẩm,False,2026-05
+L00527,DH0356,2026-05-10,Miền Nam,Cần Thơ,Đồ uống,2,36000,0.05,68000,24000.0,21000,False,False,Đồ uống,False,2026-05
+L00528,DH0401,2026-06-11,Miền Bắc,Hải Phòng,Văn phòng phẩm,5,34000,0.0,170000,27000.0,21000,False,False,Văn phòng phẩm,False,2026-06
+L00529,DH0273,2026-04-28,Miền Bắc,Hải Phòng,Đồ uống,6,68000,0.1,367000,75000.0,37000,False,False,Đồ uống,False,2026-04
+L00530,DH0518,2026-05-29,Miền Nam,Cần Thơ,Đồ uống,5,51000,0.1,230000,33000.0,21000,False,False,Đồ uống,False,2026-05
+L00531,DH0474,2026-06-13,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,67000,0.05,382000,122000.0,24000,False,False,Chăm sóc cá nhân,False,2026-06
+L00532,DH0208,2026-04-19,Miền Nam,Cần Thơ,Gia dụng,6,19000,0.0,114000,41000.0,42000,False,False,Gia dụng,False,2026-04
+L00533,DH0108,2026-06-10,Miền Nam,Cần Thơ,Chăm sóc cá nhân,2,46000,0.0,92000,24000.0,45000,False,False,Chăm sóc cá nhân,False,2026-06
+L00534,DH0497,2026-05-17,Miền Bắc,Hà Nội,Văn phòng phẩm,6,46000,0.1,248000,63000.0,54000,False,False,Văn phòng phẩm,False,2026-05
+L00535,DH0384,2026-04-19,Miền Bắc,Hải Phòng,Văn phòng phẩm,6,91000,0.0,546000,198000.0,43000,False,False,Văn phòng phẩm,False,2026-04
+L00536,DH0417,2026-04-02,Miền Nam,Cần Thơ,Gia dụng,1,96000,0.05,91000,25000.0,49000,False,False,Gia dụng,False,2026-04
+L00537,DH0081,2026-06-20,Miền Bắc,Hà Nội,Thực phẩm,4,87000,0.0,348000,146000.0,54000,False,False,Thực phẩm,False,2026-06
+L00538,DH0015,2026-06-19,Miền Nam,Cần Thơ,Đồ uống,4,26000,0.0,104000,17000.0,14000,False,False,Đồ uống,False,2026-06
+L00539,DH0174,2026-04-06,Miền Nam,Cần Thơ,Thực phẩm,3,95000,0.0,285000,121000.0,13000,False,False,Thực phẩm,False,2026-04
+L00540,DH0066,2026-05-20,Miền Nam,Cần Thơ,Thực phẩm,4,111000,0.05,422000,67000.0,45000,False,False,Thực phẩm,False,2026-05
+L00541,DH0533,2026-04-09,Miền Bắc,Hà Nội,Đồ uống,1,45000,0.1,40000,11000.0,11000,False,False,Đồ uống,False,2026-04
+L00542,DH0075,2026-04-05,Miền Nam,TP.HCM,Gia dụng,1,73000,0.05,69000,16000.0,11000,False,False,Gia dụng,False,2026-04
+L00543,DH0136,2026-04-06,Miền Nam,Cần Thơ,Đồ uống,3,78000,0.1,211000,56000.0,18000,False,False,Đồ uống,False,2026-04
+L00544,DH0470,2026-06-25,Miền Nam,Cần Thơ,Gia dụng,6,54000,0.0,324000,132000.0,53000,False,False,Gia dụng,False,2026-06
+L00545,DH0170,2026-05-17,Miền Bắc,Hà Nội,Văn phòng phẩm,3,68000,0.0,204000,48000.0,28000,False,False,Văn phòng phẩm,False,2026-05
+L00546,DH0146,2026-06-30,Miền Nam,TP.HCM,Thực phẩm,6,45000,0.0,270000,70000.0,8000,False,False,Thực phẩm,False,2026-06
+L00547,DH0198,2026-06-10,Miền Nam,TP.HCM,Gia dụng,4,69000,0.0,276000,104000.0,42000,False,False,Gia dụng,False,2026-06
+L00548,DH0227,2026-06-07,Miền Bắc,Hà Nội,Đồ uống,2,61000,0.0,122000,26000.0,24000,False,False,Đồ uống,False,2026-06
+L00549,DH0004,2026-04-10,Miền Bắc,Hải Phòng,Thực phẩm,2,73000,0.0,146000,22000.0,25000,False,False,Thực phẩm,False,2026-04
+L00550,DH0133,2026-05-10,Miền Trung,Huế,Đồ uống,1,151000,0.15,128000,40000.0,49000,False,False,Đồ uống,False,2026-05
+L00551,DH0264,2026-05-22,Miền Nam,TP.HCM,Đồ uống,6,40000,0.0,240000,48000.0,37000,False,False,Đồ uống,False,2026-05
+L00552,DH0215,2026-05-24,Miền Bắc,Hải Phòng,Đồ uống,6,110000,0.0,660000,259000.0,11000,False,False,Đồ uống,True,2026-05
+L00553,DH0061,2026-04-13,Miền Nam,Cần Thơ,Thực phẩm,4,68000,0.1,245000,84000.0,32000,False,False,Thực phẩm,False,2026-04
+L00554,DH0158,2026-04-01,Miền Nam,TP.HCM,Chăm sóc cá nhân,3,65000,0.0,195000,33000.0,31000,False,False,Chăm sóc cá nhân,False,2026-04
+L00555,DH0082,2026-05-26,Miền Nam,Cần Thơ,Chăm sóc cá nhân,3,25000,0.0,75000,26000.0,57000,False,False,Chăm sóc cá nhân,False,2026-05
+L00556,DH0081,2026-04-10,Miền Bắc,Hải Phòng,Văn phòng phẩm,2,101000,0.0,202000,53000.0,15000,False,False,Văn phòng phẩm,False,2026-04
+L00557,DH0527,2026-06-25,Miền Nam,TP.HCM,Văn phòng phẩm,6,39000,0.1,211000,88000.0,43000,False,False,Văn phòng phẩm,False,2026-06
+L00558,DH0269,2026-05-01,Miền Bắc,Hải Phòng,Gia dụng,1,43000,0.0,43000,7000.0,10000,False,False,Gia dụng,False,2026-05
+L00559,DH0310,2026-06-24,Miền Nam,TP.HCM,Chăm sóc cá nhân,1,58000,0.0,58000,16000.0,64000,False,False,Chăm sóc cá nhân,False,2026-06
+L00560,DH0393,2026-05-08,Miền Bắc,Hải Phòng,Thực phẩm,6,56000,0.05,319000,126000.0,21000,False,False,Thực phẩm,False,2026-05
+L00561,DH0237,2026-05-09,Miền Nam,TP.HCM,Đồ uống,2,44000,0.05,84000,21000.0,56000,False,False,Đồ uống,False,2026-05
+L00562,DH0534,2026-06-08,Miền Bắc,Hà Nội,Chăm sóc cá nhân,1,125000,0.0,125000,19000.0,52000,False,False,Chăm sóc cá nhân,False,2026-06
+L00563,DH0010,2026-06-21,Miền Trung,Đà Nẵng,Gia dụng,1,88000,0.0,88000,33000.0,63000,False,False,Gia dụng,False,2026-06
+L00564,DH0080,2026-04-16,Miền Nam,TP.HCM,Văn phòng phẩm,4,193000,0.0,772000,289000.0,31000,False,False,Văn phòng phẩm,True,2026-04
+L00565,DH0160,2026-05-11,Miền Trung,Đà Nẵng,Đồ uống,4,47000,0.05,179000,75000.0,35000,False,False,Đồ uống,False,2026-05
+L00566,DH0173,2026-04-11,Miền Nam,TP.HCM,Văn phòng phẩm,2,46000,0.05,87000,31000.0,60000,False,False,Văn phòng phẩm,False,2026-04
+L00567,DH0066,2026-06-03,Miền Nam,TP.HCM,Đồ uống,6,158000,0.05,901000,200000.0,29000,False,False,Đồ uống,True,2026-06
+L00568,DH0148,2026-06-03,Miền Bắc,Hà Nội,Đồ uống,2,37000,0.0,74000,16000.0,17000,False,False,Đồ uống,False,2026-06
+L00569,DH0511,2026-04-13,Miền Nam,TP.HCM,Gia dụng,3,74000,0.0,222000,86000.0,46000,False,False,Gia dụng,False,2026-04
+L00570,DH0471,2026-06-20,Miền Nam,TP.HCM,Thực phẩm,5,57000,0.05,271000,43000.0,26000,False,False,Thực phẩm,False,2026-06
+L00571,DH0013,2026-06-29,Miền Trung,Đà Nẵng,Thực phẩm,2,59000,0.1,106000,32000.0,29000,False,False,Thực phẩm,False,2026-06
+L00572,DH0124,2026-06-20,Miền Nam,TP.HCM,Thực phẩm,5,35000,0.1,158000,25000.0,40000,False,False,Thực phẩm,False,2026-06
+L00573,DH0297,2026-06-13,Miền Bắc,Hải Phòng,Đồ uống,1,49000,0.0,49000,8000.0,36000,False,False,Đồ uống,False,2026-06
+L00574,DH0172,2026-06-07,Miền Nam,Cần Thơ,Chăm sóc cá nhân,2,159000,0.1,286000,96000.0,53000,False,False,Chăm sóc cá nhân,False,2026-06
+L00575,DH0098,2026-04-26,Miền Bắc,Hải Phòng,Chăm sóc cá nhân,5,71000,0.1,320000,85000.0,66000,False,False,Chăm sóc cá nhân,False,2026-04
+L00576,DH0281,2026-06-29,Miền Bắc,Hải Phòng,Thực phẩm,2,130000,0.15,221000,91000.0,60000,False,False,Thực phẩm,False,2026-06
+L00577,DH0081,2026-04-28,Miền Nam,Cần Thơ,Thực phẩm,4,50000,0.0,200000,31000.0,31000,False,False,Thực phẩm,False,2026-04
+L00578,DH0056,2026-05-18,Miền Bắc,Hà Nội,Chăm sóc cá nhân,2,70000,0.0,140000,25000.0,52000,False,False,Chăm sóc cá nhân,False,2026-05
+L00579,DH0011,2026-06-03,Miền Nam,Cần Thơ,Thực phẩm,4,89000,0.05,338000,127000.0,24000,False,False,Thực phẩm,False,2026-06
+L00580,DH0536,2026-06-10,Miền Nam,Cần Thơ,Gia dụng,4,88000,0.05,334000,60000.0,40000,False,False,Gia dụng,False,2026-06
+L00581,DH0131,2026-04-30,Miền Bắc,Hải Phòng,Văn phòng phẩm,2,61000,0.0,122000,43000.0,19000,False,False,Văn phòng phẩm,False,2026-04
+L00582,DH0209,2026-05-08,Miền Nam,TP.HCM,Chăm sóc cá nhân,4,68000,0.0,272000,61000.0,64000,False,False,Chăm sóc cá nhân,False,2026-05
+L00583,DH0466,2026-05-14,Miền Bắc,Hải Phòng,Gia dụng,4,109000,0.1,392000,97000.0,26000,False,False,Gia dụng,False,2026-05
+L00584,DH0319,2026-05-03,Miền Nam,TP.HCM,Chăm sóc cá nhân,5,77000,0.0,385000,145000.0,29000,False,False,Chăm sóc cá nhân,False,2026-05
+L00585,DH0101,2026-04-30,Miền Nam,Cần Thơ,Đồ uống,6,30000,0.0,180000,48000.0,64000,False,False,Đồ uống,False,2026-04
+L00586,DH0164,2026-06-22,Miền Nam,Cần Thơ,Chăm sóc cá nhân,1,50000,0.0,50000,10000.0,43000,False,False,Chăm sóc cá nhân,False,2026-06
+L00587,DH0468,2026-04-23,Miền Bắc,Hà Nội,Đồ uống,3,40000,0.05,114000,18000.0,55000,False,False,Đồ uống,False,2026-04
+L00588,DH0039,2026-05-10,Miền Bắc,Hà Nội,Thực phẩm,4,31000,0.0,124000,25000.0,62000,False,False,Thực phẩm,False,2026-05
+L00589,DH0430,2026-04-14,Miền Nam,TP.HCM,Gia dụng,2,95000,0.05,180000,29000.0,12000,False,False,Gia dụng,False,2026-04
+L00590,DH0343,2026-06-07,Miền Bắc,Hà Nội,Thực phẩm,2,108000,0.0,216000,83000.0,44000,False,False,Thực phẩm,False,2026-06
+L00591,DH0347,2026-06-13,Miền Nam,TP.HCM,Chăm sóc cá nhân,3,47000,0.0,141000,46000.0,66000,False,False,Chăm sóc cá nhân,False,2026-06
+L00592,DH0351,2026-05-16,Miền Nam,Cần Thơ,Gia dụng,2,58000,0.0,116000,24000.0,8000,False,False,Gia dụng,False,2026-05
+L00593,DH0248,2026-04-06,Miền Nam,Cần Thơ,Văn phòng phẩm,6,162000,0.0,972000,187000.0,39000,False,False,Văn phòng phẩm,True,2026-04
+L00594,DH0443,2026-04-11,Miền Nam,TP.HCM,Đồ uống,1,62000,0.0,62000,,21000,False,True,Đồ uống,False,2026-04
+L00595,DH0430,2026-04-24,Miền Nam,Cần Thơ,Gia dụng,3,64000,0.05,182000,58000.0,37000,False,False,Gia dụng,False,2026-04
+L00596,DH0193,2026-04-12,Miền Trung,Huế,Đồ uống,1,76000,0.05,72000,29000.0,29000,False,False,Đồ uống,False,2026-04
+L00597,DH0063,2026-04-21,Miền Nam,Cần Thơ,Đồ uống,2,119000,0.0,238000,55000.0,22000,False,False,Đồ uống,False,2026-04
+L00598,DH0332,2026-05-17,Miền Bắc,Hà Nội,Thực phẩm,3,83000,0.0,249000,100000.0,28000,False,False,Thực phẩm,False,2026-05
+L00599,DH0497,2026-05-24,Miền Nam,Cần Thơ,Văn phòng phẩm,3,108000,0.15,275000,72000.0,40000,False,False,Văn phòng phẩm,False,2026-05
+L00600,DH0406,2026-06-04,Miền Nam,Cần Thơ,Thực phẩm,3,43000,0.05,123000,28000.0,27000,False,False,Thực phẩm,False,2026-06
+L00601,DH0115,2026-06-24,Miền Bắc,Hà Nội,Thực phẩm,1,98000,0.0,98000,28000.0,23000,False,False,Thực phẩm,False,2026-06
+L00602,DH0389,2026-06-07,Miền Trung,Đà Nẵng,Văn phòng phẩm,2,64000,0.05,122000,39000.0,16000,False,False,Văn phòng phẩm,False,2026-06
+L00603,DH0518,2026-05-14,Miền Nam,Cần Thơ,,5,46000,0.0,230000,87000.0,19000,True,False,Chưa phân loại,False,2026-05
+L00604,DH0477,2026-05-01,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,85000,0.1,459000,89000.0,51000,False,False,Chăm sóc cá nhân,False,2026-05
+L00605,DH0350,2026-06-19,Miền Bắc,Hải Phòng,Chăm sóc cá nhân,6,209000,0.0,1254000,279000.0,65000,False,False,Chăm sóc cá nhân,True,2026-06
+L00606,DH0061,2026-04-01,Miền Trung,Huế,Gia dụng,6,73000,0.1,394000,124000.0,51000,False,False,Gia dụng,False,2026-04
+L00607,DH0429,2026-06-06,Miền Nam,Cần Thơ,Thực phẩm,4,106000,0.0,424000,128000.0,59000,False,False,Thực phẩm,False,2026-06
+L00608,DH0359,2026-05-19,Miền Nam,Cần Thơ,Chăm sóc cá nhân,4,59000,0.0,236000,57000.0,18000,False,False,Chăm sóc cá nhân,False,2026-05
+L00609,DH0407,2026-05-15,Miền Bắc,Hải Phòng,Văn phòng phẩm,6,33000,0.0,198000,75000.0,51000,False,False,Văn phòng phẩm,False,2026-05
+L00610,DH0055,2026-04-18,Miền Trung,Đà Nẵng,Thực phẩm,2,85000,0.1,153000,64000.0,68000,False,False,Thực phẩm,False,2026-04
+L00611,DH0466,2026-04-26,Miền Nam,TP.HCM,Thực phẩm,1,42000,0.05,40000,16000.0,67000,False,False,Thực phẩm,False,2026-04
+L00612,DH0290,2026-04-30,Miền Nam,TP.HCM,Chăm sóc cá nhân,3,60000,0.0,180000,35000.0,9000,False,False,Chăm sóc cá nhân,False,2026-04
+L00613,DH0279,2026-04-04,Miền Nam,TP.HCM,Thực phẩm,2,161000,0.1,290000,55000.0,18000,False,False,Thực phẩm,False,2026-04
+L00614,DH0051,2026-05-22,Miền Nam,TP.HCM,Đồ uống,4,30000,0.05,114000,35000.0,30000,False,False,Đồ uống,False,2026-05
+L00615,DH0525,2026-05-22,Miền Nam,TP.HCM,Chăm sóc cá nhân,4,78000,0.05,296000,125000.0,12000,False,False,Chăm sóc cá nhân,False,2026-05
+L00616,DH0194,2026-05-06,Miền Nam,Cần Thơ,Gia dụng,1,84000,0.1,76000,15000.0,69000,False,False,Gia dụng,False,2026-05
+L00617,DH0199,2026-06-22,Miền Trung,Huế,Thực phẩm,4,77000,0.1,277000,66000.0,12000,False,False,Thực phẩm,False,2026-06
+L00618,DH0323,2026-05-12,Miền Bắc,Hà Nội,Thực phẩm,2,51000,0.05,97000,23000.0,38000,False,False,Thực phẩm,False,2026-05
+L00619,DH0256,2026-04-07,Miền Bắc,Hà Nội,Gia dụng,1,73000,0.0,73000,17000.0,68000,False,False,Gia dụng,False,2026-04
+L00620,DH0237,2026-04-05,Miền Nam,TP.HCM,Thực phẩm,2,44000,0.15,75000,18000.0,67000,False,False,Thực phẩm,False,2026-04
+L00621,DH0061,2026-05-04,Miền Bắc,Hà Nội,Gia dụng,2,134000,0.05,255000,106000.0,42000,False,False,Gia dụng,False,2026-05
+L00622,DH0031,2026-04-17,Miền Nam,Cần Thơ,Đồ uống,1,72000,0.0,72000,25000.0,28000,False,False,Đồ uống,False,2026-04
+L00623,DH0002,2026-06-18,Miền Bắc,Hải Phòng,Thực phẩm,3,121000,0.05,345000,113000.0,43000,False,False,Thực phẩm,False,2026-06
+L00624,DH0240,2026-06-16,Miền Nam,Cần Thơ,Chăm sóc cá nhân,3,59000,0.05,168000,28000.0,22000,False,False,Chăm sóc cá nhân,False,2026-06
+L00625,DH0203,2026-06-27,Miền Trung,Huế,Đồ uống,2,99000,0.1,178000,67000.0,13000,False,False,Đồ uống,False,2026-06
+L00626,DH0421,2026-05-17,Miền Bắc,Hải Phòng,Gia dụng,6,91000,0.0,546000,139000.0,51000,False,False,Gia dụng,False,2026-05
+L00627,DH0418,2026-05-15,Miền Trung,Đà Nẵng,Gia dụng,2,40000,0.0,80000,36000.0,17000,False,False,Gia dụng,False,2026-05
+L00628,DH0043,2026-06-20,Miền Bắc,Hà Nội,Chăm sóc cá nhân,3,136000,0.05,388000,135000.0,21000,False,False,Chăm sóc cá nhân,False,2026-06
+L00629,DH0289,2026-05-28,Miền Bắc,Hà Nội,Đồ uống,1,226000,0.0,226000,73000.0,66000,False,False,Đồ uống,False,2026-05
+L00630,DH0370,2026-06-18,Miền Bắc,Hà Nội,Chăm sóc cá nhân,5,108000,0.05,513000,147000.0,10000,False,False,Chăm sóc cá nhân,False,2026-06
+L00631,DH0312,2026-04-18,Miền Nam,TP.HCM,Đồ uống,4,37000,0.15,126000,18000.0,55000,False,False,Đồ uống,False,2026-04
+L00632,DH0191,2026-04-18,Miền Trung,Huế,Đồ uống,5,46000,0.0,230000,102000.0,22000,False,False,Đồ uống,False,2026-04
+L00633,DH0441,2026-04-06,Miền Nam,Cần Thơ,Đồ uống,1,25000,0.0,25000,6000.0,45000,False,False,Đồ uống,False,2026-04
+L00634,DH0039,2026-05-07,Miền Bắc,Hà Nội,Gia dụng,4,46000,0.0,184000,30000.0,23000,False,False,Gia dụng,False,2026-05
+L00635,DH0093,2026-06-11,Miền Bắc,Hải Phòng,Gia dụng,2,149000,0.15,253000,56000.0,38000,False,False,Gia dụng,False,2026-06
+L00636,DH0274,2026-05-18,Miền Nam,TP.HCM,Gia dụng,3,107000,0.0,321000,107000.0,41000,False,False,Gia dụng,False,2026-05
+L00637,DH0155,2026-05-20,Miền Trung,Đà Nẵng,Văn phòng phẩm,5,43000,0.1,194000,43000.0,61000,False,False,Văn phòng phẩm,False,2026-05
+L00638,DH0045,2026-04-09,Miền Bắc,Hà Nội,Thực phẩm,2,38000,0.0,76000,17000.0,15000,False,False,Thực phẩm,False,2026-04
+L00639,DH0530,2026-04-12,Miền Bắc,Hà Nội,Đồ uống,1,50000,0.1,45000,15000.0,52000,False,False,Đồ uống,False,2026-04
+L00640,DH0425,2026-04-08,Miền Nam,TP.HCM,Thực phẩm,5,109000,0.05,518000,190000.0,47000,False,False,Thực phẩm,False,2026-04
+L00641,DH0373,2026-05-04,Miền Nam,TP.HCM,Đồ uống,4,84000,0.05,319000,81000.0,50000,False,False,Đồ uống,False,2026-05
+L00642,DH0121,2026-06-16,Miền Trung,Đà Nẵng,Gia dụng,2,131000,0.0,262000,59000.0,66000,False,False,Gia dụng,False,2026-06
+L00643,DH0315,2026-06-07,Miền Trung,Đà Nẵng,Chăm sóc cá nhân,5,50000,0.05,238000,81000.0,54000,False,False,Chăm sóc cá nhân,False,2026-06
+L00644,DH0276,2026-06-15,Miền Bắc,Hải Phòng,Thực phẩm,1,71000,0.05,67000,12000.0,41000,False,False,Thực phẩm,False,2026-06
+L00645,DH0265,2026-04-28,Miền Bắc,Hà Nội,Đồ uống,2,49000,0.0,98000,27000.0,11000,False,False,Đồ uống,False,2026-04
+L00646,DH0143,2026-05-05,Miền Bắc,Hải Phòng,Thực phẩm,4,61000,0.0,244000,78000.0,38000,False,False,Thực phẩm,False,2026-05
+L00647,DH0216,2026-06-27,Miền Nam,TP.HCM,Gia dụng,6,58000,0.05,331000,83000.0,67000,False,False,Gia dụng,False,2026-06
+L00648,DH0371,2026-06-04,Miền Bắc,Hà Nội,Đồ uống,6,59000,0.0,354000,106000.0,58000,False,False,Đồ uống,False,2026-06
+L00649,DH0091,2026-06-02,Miền Nam,Cần Thơ,Thực phẩm,1,87000,0.05,83000,31000.0,35000,False,False,Thực phẩm,False,2026-06
+L00650,DH0073,2026-05-18,Miền Bắc,Hải Phòng,Đồ uống,5,54000,0.0,270000,47000.0,46000,False,False,Đồ uống,False,2026-05
+L00651,DH0365,2026-04-10,Miền Nam,TP.HCM,Chăm sóc cá nhân,4,63000,0.05,239000,93000.0,58000,False,False,Chăm sóc cá nhân,False,2026-04
+L00652,DH0511,2026-06-08,Miền Nam,TP.HCM,Thực phẩm,3,45000,0.0,135000,34000.0,58000,False,False,Thực phẩm,False,2026-06
+L00653,DH0468,2026-05-04,Miền Trung,Đà Nẵng,Thực phẩm,4,115000,0.0,460000,72000.0,20000,False,False,Thực phẩm,False,2026-05
+L00654,DH0082,2026-04-29,Miền Nam,TP.HCM,Thực phẩm,6,146000,0.0,876000,382000.0,18000,False,False,Thực phẩm,True,2026-04
+L00655,DH0213,2026-06-05,Miền Nam,TP.HCM,Thực phẩm,1,162000,0.0,162000,60000.0,47000,False,False,Thực phẩm,False,2026-06
+L00656,DH0343,2026-05-14,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,97000,0.05,553000,87000.0,66000,False,False,Chăm sóc cá nhân,False,2026-05
+L00657,DH0136,2026-04-16,Miền Trung,Đà Nẵng,Đồ uống,4,66000,0.0,264000,108000.0,12000,False,False,Đồ uống,False,2026-04
+L00658,DH0187,2026-06-21,Miền Bắc,Hà Nội,Đồ uống,4,44000,0.0,176000,52000.0,42000,False,False,Đồ uống,False,2026-06
+L00659,DH0119,2026-05-06,Miền Nam,TP.HCM,Thực phẩm,4,42000,0.0,168000,25000.0,67000,False,False,Thực phẩm,False,2026-05
+L00660,DH0306,2026-06-14,Miền Bắc,Hà Nội,Đồ uống,3,65000,0.05,185000,74000.0,38000,False,False,Đồ uống,False,2026-06
+L00661,DH0048,2026-05-07,Miền Nam,Cần Thơ,Gia dụng,1,38000,0.0,38000,16000.0,18000,False,False,Gia dụng,False,2026-05
+L00662,DH0451,2026-04-29,Miền Nam,Cần Thơ,Đồ uống,2,95000,0.1,171000,62000.0,34000,False,False,Đồ uống,False,2026-04
+L00663,DH0281,2026-06-12,Miền Trung,Huế,Gia dụng,6,75000,0.0,450000,182000.0,13000,False,False,Gia dụng,False,2026-06
+L00664,DH0088,2026-06-20,Miền Nam,TP.HCM,Chăm sóc cá nhân,5,37000,0.0,185000,83000.0,60000,False,False,Chăm sóc cá nhân,False,2026-06
+L00665,DH0187,2026-04-29,Miền Nam,Cần Thơ,Đồ uống,1,61000,0.1,55000,16000.0,36000,False,False,Đồ uống,False,2026-04
+L00666,DH0016,2026-05-07,Miền Trung,Huế,Đồ uống,1,99000,0.0,99000,30000.0,50000,False,False,Đồ uống,False,2026-05
+L00667,DH0283,2026-05-21,Miền Bắc,Hà Nội,Thực phẩm,6,113000,0.0,678000,99000.0,23000,False,False,Thực phẩm,True,2026-05
+L00668,DH0517,2026-06-02,Miền Trung,Đà Nẵng,Thực phẩm,2,74000,0.0,148000,24000.0,54000,False,False,Thực phẩm,False,2026-06
+L00669,DH0379,2026-05-16,Miền Trung,Đà Nẵng,Đồ uống,6,90000,0.05,513000,230000.0,30000,False,False,Đồ uống,False,2026-05
+L00670,DH0003,2026-06-04,Miền Nam,TP.HCM,Gia dụng,4,78000,0.1,281000,88000.0,51000,False,False,Gia dụng,False,2026-06
+L00671,DH0006,2026-06-15,Miền Nam,TP.HCM,Đồ uống,5,55000,0.1,248000,97000.0,33000,False,False,Đồ uống,False,2026-06
+L00672,DH0384,2026-05-07,Miền Bắc,Hải Phòng,Gia dụng,4,72000,0.0,288000,96000.0,62000,False,False,Gia dụng,False,2026-05
+L00673,DH0431,2026-06-17,Miền Nam,TP.HCM,Thực phẩm,3,72000,0.05,205000,70000.0,52000,False,False,Thực phẩm,False,2026-06
+L00674,DH0309,2026-06-15,Miền Bắc,Hải Phòng,Chăm sóc cá nhân,6,52000,0.1,281000,80000.0,14000,False,False,Chăm sóc cá nhân,False,2026-06
+L00675,DH0313,2026-06-28,Miền Bắc,Hải Phòng,Văn phòng phẩm,6,76000,0.05,433000,180000.0,55000,False,False,Văn phòng phẩm,False,2026-06
+L00676,DH0402,2026-05-13,Miền Bắc,Hải Phòng,Chăm sóc cá nhân,1,67000,0.05,64000,10000.0,26000,False,False,Chăm sóc cá nhân,False,2026-05
+L00677,DH0272,2026-06-16,Miền Trung,Đà Nẵng,Thực phẩm,3,81000,0.0,243000,69000.0,20000,False,False,Thực phẩm,False,2026-06
+L00678,DH0074,2026-06-27,Miền Nam,TP.HCM,Gia dụng,4,68000,0.05,258000,101000.0,44000,False,False,Gia dụng,False,2026-06
+L00679,DH0504,2026-06-25,Miền Nam,Cần Thơ,Chăm sóc cá nhân,1,68000,0.0,68000,22000.0,35000,False,False,Chăm sóc cá nhân,False,2026-06
+L00680,DH0449,2026-06-25,Miền Trung,Đà Nẵng,Thực phẩm,4,30000,0.0,120000,23000.0,32000,False,False,Thực phẩm,False,2026-06
+L00681,DH0343,2026-05-06,Miền Nam,TP.HCM,Thực phẩm,1,195000,0.0,195000,62000.0,9000,False,False,Thực phẩm,False,2026-05
+L00682,DH0433,2026-06-21,Miền Nam,TP.HCM,Đồ uống,3,94000,0.0,282000,81000.0,59000,False,False,Đồ uống,False,2026-06
+L00683,DH0500,2026-05-10,Miền Nam,TP.HCM,Thực phẩm,3,83000,0.05,237000,44000.0,17000,False,False,Thực phẩm,False,2026-05
+L00684,DH0229,2026-06-22,Miền Nam,TP.HCM,Thực phẩm,4,150000,0.15,510000,205000.0,12000,False,False,Thực phẩm,False,2026-06
+L00685,DH0092,2026-06-13,Miền Nam,Cần Thơ,Đồ uống,2,106000,0.1,191000,29000.0,37000,False,False,Đồ uống,False,2026-06
+L00686,DH0087,2026-04-14,Miền Bắc,Hà Nội,Đồ uống,4,84000,0.0,336000,51000.0,13000,False,False,Đồ uống,False,2026-04
+L00687,DH0515,2026-04-12,Miền Nam,Cần Thơ,Đồ uống,4,91000,0.0,364000,135000.0,50000,False,False,Đồ uống,False,2026-04
+L00688,DH0068,2026-05-29,Miền Nam,TP.HCM,Đồ uống,6,144000,0.05,821000,291000.0,33000,False,False,Đồ uống,True,2026-05
+L00689,DH0345,2026-04-23,Miền Nam,Cần Thơ,Đồ uống,5,77000,0.1,346000,89000.0,26000,False,False,Đồ uống,False,2026-04
+L00690,DH0018,2026-06-07,Miền Bắc,Hải Phòng,Đồ uống,3,37000,0.05,105000,18000.0,17000,False,False,Đồ uống,False,2026-06
+L00691,DH0474,2026-06-11,Miền Bắc,Hải Phòng,Văn phòng phẩm,4,35000,0.0,140000,53000.0,63000,False,False,Văn phòng phẩm,False,2026-06
+L00692,DH0103,2026-05-19,Miền Nam,TP.HCM,Đồ uống,2,127000,0.05,241000,77000.0,59000,False,False,Đồ uống,False,2026-05
+L00693,DH0096,2026-06-10,Miền Nam,Cần Thơ,Thực phẩm,3,62000,0.15,158000,23000.0,16000,False,False,Thực phẩm,False,2026-06
+L00694,DH0496,2026-05-19,Miền Bắc,Hải Phòng,Văn phòng phẩm,2,87000,0.0,174000,26000.0,65000,False,False,Văn phòng phẩm,False,2026-05
+L00695,DH0224,2026-05-22,Miền Nam,TP.HCM,Thực phẩm,4,66000,0.1,238000,55000.0,61000,False,False,Thực phẩm,False,2026-05
+L00696,DH0370,2026-04-19,Miền Nam,Cần Thơ,Chăm sóc cá nhân,1,83000,0.0,83000,26000.0,18000,False,False,Chăm sóc cá nhân,False,2026-04
+L00697,DH0071,2026-05-24,Miền Trung,Huế,Đồ uống,4,47000,0.05,179000,64000.0,60000,False,False,Đồ uống,False,2026-05
+L00698,DH0255,2026-04-15,Miền Trung,Đà Nẵng,Văn phòng phẩm,5,84000,0.1,378000,58000.0,49000,False,False,Văn phòng phẩm,False,2026-04
+L00699,DH0413,2026-05-27,Miền Trung,Huế,Thực phẩm,3,25000,0.1,68000,20000.0,27000,False,False,Thực phẩm,False,2026-05
+L00700,DH0194,2026-06-11,Miền Nam,Cần Thơ,Gia dụng,2,60000,0.0,120000,21000.0,36000,False,False,Gia dụng,False,2026-06
+L00701,DH0261,2026-06-09,Miền Trung,Đà Nẵng,Thực phẩm,4,37000,0.1,133000,26000.0,52000,False,False,Thực phẩm,False,2026-06
+L00702,DH0037,2026-04-14,Miền Nam,TP.HCM,Đồ uống,4,68000,0.05,258000,80000.0,11000,False,False,Đồ uống,False,2026-04
+L00703,DH0167,2026-06-11,Miền Nam,Cần Thơ,Đồ uống,1,71000,0.0,71000,29000.0,24000,False,False,Đồ uống,False,2026-06
+L00704,DH0382,2026-06-06,Miền Nam,TP.HCM,Đồ uống,4,63000,0.0,252000,80000.0,40000,False,False,Đồ uống,False,2026-06
+L00705,DH0324,2026-04-14,Miền Nam,TP.HCM,Thực phẩm,2,73000,0.05,139000,29000.0,17000,False,False,Thực phẩm,False,2026-04
+L00706,DH0235,2026-04-08,Miền Bắc,Hà Nội,Thực phẩm,2,31000,0.0,62000,9000.0,59000,False,False,Thực phẩm,False,2026-04
+L00707,DH0308,2026-05-30,Miền Bắc,Hà Nội,Gia dụng,5,42000,0.0,210000,65000.0,19000,False,False,Gia dụng,False,2026-05
+L00708,DH0226,2026-05-08,Miền Nam,TP.HCM,Thực phẩm,4,61000,0.1,220000,40000.0,13000,False,False,Thực phẩm,False,2026-05
+L00709,DH0490,2026-05-16,Miền Bắc,Hà Nội,Đồ uống,4,80000,0.0,320000,118000.0,62000,False,False,Đồ uống,False,2026-05
+L00710,DH0169,2026-04-03,Miền Trung,Huế,Gia dụng,3,76000,0.1,205000,35000.0,17000,False,False,Gia dụng,False,2026-04
+L00711,DH0280,2026-04-22,Miền Bắc,Hải Phòng,Đồ uống,6,31000,0.05,177000,64000.0,57000,False,False,Đồ uống,False,2026-04
+L00712,DH0402,2026-05-31,Miền Bắc,Hà Nội,Văn phòng phẩm,2,121000,0.0,242000,79000.0,43000,False,False,Văn phòng phẩm,False,2026-05
+L00713,DH0075,2026-05-28,Miền Bắc,Hà Nội,Chăm sóc cá nhân,5,64000,0.1,288000,64000.0,38000,False,False,Chăm sóc cá nhân,False,2026-05
+L00714,DH0158,2026-04-27,Miền Bắc,Hải Phòng,Thực phẩm,2,139000,0.0,278000,51000.0,38000,False,False,Thực phẩm,False,2026-04
+L00715,DH0323,2026-05-02,Miền Bắc,Hải Phòng,Đồ uống,5,91000,0.0,455000,176000.0,59000,False,False,Đồ uống,False,2026-05
+L00716,DH0165,2026-05-13,Miền Nam,TP.HCM,Thực phẩm,6,113000,0.15,576000,164000.0,64000,False,False,Thực phẩm,False,2026-05
+L00717,DH0515,2026-05-01,Miền Trung,Huế,Đồ uống,1,85000,0.0,85000,24000.0,44000,False,False,Đồ uống,False,2026-05
+L00718,DH0196,2026-04-27,Miền Nam,Cần Thơ,Văn phòng phẩm,4,55000,0.1,198000,35000.0,60000,False,False,Văn phòng phẩm,False,2026-04
+L00719,DH0459,2026-04-29,Miền Bắc,Hà Nội,Thực phẩm,4,60000,0.05,228000,62000.0,66000,False,False,Thực phẩm,False,2026-04
+L00720,DH0056,2026-05-17,Miền Nam,Cần Thơ,Gia dụng,3,99000,0.05,282000,101000.0,60000,False,False,Gia dụng,False,2026-05
+L00721,DH0289,2026-05-21,Miền Nam,Cần Thơ,Đồ uống,2,57000,0.0,114000,47000.0,44000,False,False,Đồ uống,False,2026-05
+L00722,DH0495,2026-05-30,Miền Nam,TP.HCM,Thực phẩm,1,29000,0.0,29000,9000.0,13000,False,False,Thực phẩm,False,2026-05
+L00723,DH0262,2026-04-23,Miền Nam,TP.HCM,Đồ uống,2,67000,0.05,127000,55000.0,23000,False,False,Đồ uống,False,2026-04
+L00724,DH0397,2026-04-16,Miền Trung,Đà Nẵng,Thực phẩm,1,75000,0.05,71000,13000.0,31000,False,False,Thực phẩm,False,2026-04
+L00725,DH0450,2026-04-29,Miền Nam,Cần Thơ,Văn phòng phẩm,6,82000,0.1,443000,133000.0,11000,False,False,Văn phòng phẩm,False,2026-04
+L00726,DH0446,2026-06-10,Miền Bắc,Hải Phòng,Thực phẩm,3,92000,0.05,262000,74000.0,40000,False,False,Thực phẩm,False,2026-06
+L00727,DH0108,2026-06-16,Miền Nam,TP.HCM,Gia dụng,3,164000,0.05,467000,173000.0,23000,False,False,Gia dụng,False,2026-06
+L00728,DH0056,2026-06-11,Miền Nam,TP.HCM,Đồ uống,4,34000,0.15,116000,22000.0,34000,False,False,Đồ uống,False,2026-06
+L00729,DH0252,2026-05-06,Miền Bắc,Hà Nội,Đồ uống,4,148000,0.0,592000,125000.0,20000,False,False,Đồ uống,False,2026-05
+L00730,DH0316,2026-06-25,Miền Bắc,Hải Phòng,Đồ uống,1,92000,0.0,92000,37000.0,37000,False,False,Đồ uống,False,2026-06
+L00731,DH0197,2026-05-22,Miền Bắc,Hải Phòng,Đồ uống,6,67000,0.15,342000,55000.0,27000,False,False,Đồ uống,False,2026-05
+L00732,DH0008,2026-05-05,Miền Nam,Cần Thơ,Đồ uống,5,36000,0.05,171000,57000.0,41000,False,False,Đồ uống,False,2026-05
+L00733,DH0186,2026-05-24,Miền Trung,Đà Nẵng,Gia dụng,4,69000,0.05,262000,105000.0,19000,False,False,Gia dụng,False,2026-05
+L00734,DH0037,2026-06-19,Miền Nam,Cần Thơ,Thực phẩm,1,87000,0.0,87000,36000.0,67000,False,False,Thực phẩm,False,2026-06
+L00735,DH0483,2026-05-10,Miền Nam,TP.HCM,Thực phẩm,5,65000,0.1,292000,67000.0,35000,False,False,Thực phẩm,False,2026-05
+L00736,DH0048,2026-04-09,Miền Trung,Huế,,4,54000,0.05,205000,77000.0,13000,True,False,Chưa phân loại,False,2026-04
+L00737,DH0275,2026-04-28,Miền Nam,TP.HCM,Thực phẩm,4,51000,0.05,194000,45000.0,34000,False,False,Thực phẩm,False,2026-04
+L00738,DH0253,2026-06-30,Miền Nam,TP.HCM,Chăm sóc cá nhân,3,47000,0.05,134000,29000.0,16000,False,False,Chăm sóc cá nhân,False,2026-06
+L00739,DH0239,2026-05-13,Miền Nam,TP.HCM,Thực phẩm,4,89000,0.0,356000,159000.0,45000,False,False,Thực phẩm,False,2026-05
+L00740,DH0448,2026-04-20,Miền Bắc,Hà Nội,Chăm sóc cá nhân,1,86000,0.0,86000,16000.0,20000,False,False,Chăm sóc cá nhân,False,2026-04
+L00741,DH0487,2026-06-20,Miền Trung,Đà Nẵng,Chăm sóc cá nhân,2,102000,0.05,194000,39000.0,63000,False,False,Chăm sóc cá nhân,False,2026-06
+L00742,DH0362,2026-05-05,Miền Trung,Huế,Gia dụng,6,47000,0.0,282000,91000.0,10000,False,False,Gia dụng,False,2026-05
+L00743,DH0019,2026-04-30,Miền Nam,TP.HCM,Thực phẩm,4,121000,0.1,436000,97000.0,42000,False,False,Thực phẩm,False,2026-04
+L00744,DH0197,2026-04-09,Miền Bắc,Hải Phòng,Chăm sóc cá nhân,2,203000,0.1,365000,107000.0,29000,False,False,Chăm sóc cá nhân,False,2026-04
+L00745,DH0208,2026-06-26,Miền Bắc,Hà Nội,Gia dụng,5,70000,0.0,350000,97000.0,25000,False,False,Gia dụng,False,2026-06
+L00746,DH0303,2026-06-15,Miền Nam,Cần Thơ,Chăm sóc cá nhân,6,111000,0.0,666000,265000.0,65000,False,False,Chăm sóc cá nhân,True,2026-06
+L00747,DH0481,2026-05-06,Miền Trung,Huế,Đồ uống,4,37000,0.15,126000,37000.0,17000,False,False,Đồ uống,False,2026-05
+L00748,DH0490,2026-05-15,Miền Bắc,Hà Nội,Thực phẩm,1,194000,0.0,194000,77000.0,63000,False,False,Thực phẩm,False,2026-05
+L00749,DH0421,2026-04-24,Miền Bắc,Hà Nội,Gia dụng,5,88000,0.1,396000,78000.0,37000,False,False,Gia dụng,False,2026-04
+L00750,DH0106,2026-06-27,Miền Bắc,Hà Nội,Đồ uống,5,116000,0.05,551000,223000.0,53000,False,False,Đồ uống,False,2026-06
+L00751,DH0278,2026-06-23,Miền Trung,Huế,Thực phẩm,4,76000,0.1,274000,78000.0,21000,False,False,Thực phẩm,False,2026-06
+L00752,DH0177,2026-04-14,Miền Trung,Huế,Thực phẩm,6,33000,0.05,188000,37000.0,52000,False,False,Thực phẩm,False,2026-04
+L00753,DH0404,2026-04-23,Miền Nam,TP.HCM,Đồ uống,4,83000,0.0,332000,55000.0,46000,False,False,Đồ uống,False,2026-04
+L00754,DH0478,2026-06-21,Miền Nam,Cần Thơ,Thực phẩm,3,66000,0.0,198000,51000.0,24000,False,False,Thực phẩm,False,2026-06
+L00755,DH0502,2026-04-20,Miền Bắc,Hà Nội,Gia dụng,3,101000,0.1,273000,87000.0,67000,False,False,Gia dụng,False,2026-04
+L00756,DH0180,2026-05-03,Miền Nam,TP.HCM,Đồ uống,4,46000,0.0,184000,55000.0,54000,False,False,Đồ uống,False,2026-05
+L00757,DH0513,2026-06-13,Miền Bắc,Hải Phòng,Đồ uống,1,17000,0.0,17000,3000.0,59000,False,False,Đồ uống,False,2026-06
+L00758,DH0168,2026-04-22,Miền Nam,TP.HCM,Văn phòng phẩm,4,64000,0.0,256000,49000.0,11000,False,False,Văn phòng phẩm,False,2026-04
+L00759,DH0446,2026-06-17,Miền Bắc,Hà Nội,Gia dụng,4,57000,0.1,205000,60000.0,49000,False,False,Gia dụng,False,2026-06
+L00760,DH0129,2026-05-30,Miền Nam,Cần Thơ,Thực phẩm,2,92000,0.0,184000,30000.0,44000,False,False,Thực phẩm,False,2026-05
+L00761,DH0157,2026-04-17,Miền Nam,Cần Thơ,Chăm sóc cá nhân,3,45000,0.0,135000,49000.0,31000,False,False,Chăm sóc cá nhân,False,2026-04
+L00762,DH0285,2026-04-03,Miền Nam,TP.HCM,Đồ uống,5,56000,0.1,252000,107000.0,17000,False,False,Đồ uống,False,2026-04
+L00763,DH0291,2026-04-16,Miền Nam,Cần Thơ,Gia dụng,4,56000,0.15,190000,28000.0,23000,False,False,Gia dụng,False,2026-04
+L00764,DH0388,2026-05-18,Miền Bắc,Hà Nội,Gia dụng,5,48000,0.1,216000,40000.0,65000,False,False,Gia dụng,False,2026-05
+L00765,DH0535,2026-06-27,Miền Bắc,Hà Nội,,6,85000,0.0,510000,139000.0,20000,True,False,Chưa phân loại,False,2026-06
+L00766,DH0054,2026-05-14,Miền Bắc,Hà Nội,Thực phẩm,6,58000,0.05,331000,145000.0,12000,False,False,Thực phẩm,False,2026-05
+L00767,DH0019,2026-04-12,Miền Bắc,Hải Phòng,Thực phẩm,3,53000,0.1,143000,34000.0,15000,False,False,Thực phẩm,False,2026-04
+L00768,DH0024,2026-04-05,Miền Bắc,Hải Phòng,Đồ uống,5,49000,0.1,220000,54000.0,32000,False,False,Đồ uống,False,2026-04
+L00769,DH0520,2026-04-18,Miền Nam,TP.HCM,Gia dụng,3,58000,0.1,157000,63000.0,12000,False,False,Gia dụng,False,2026-04
+L00770,DH0453,2026-05-10,Miền Bắc,Hà Nội,Văn phòng phẩm,1,132000,0.0,132000,50000.0,10000,False,False,Văn phòng phẩm,False,2026-05
+L00771,DH0262,2026-05-11,Miền Trung,Đà Nẵng,Văn phòng phẩm,5,60000,0.15,255000,93000.0,14000,False,False,Văn phòng phẩm,False,2026-05
+L00772,DH0410,2026-04-28,Miền Nam,Cần Thơ,Thực phẩm,1,49000,0.0,49000,8000.0,42000,False,False,Thực phẩm,False,2026-04
+L00773,DH0534,2026-05-27,Miền Nam,TP.HCM,Đồ uống,3,70000,0.05,200000,85000.0,63000,False,False,Đồ uống,False,2026-05
+L00774,DH0082,2026-04-23,Miền Trung,Đà Nẵng,Đồ uống,3,95000,0.1,256000,109000.0,67000,False,False,Đồ uống,False,2026-04
+L00775,DH0176,2026-04-24,Miền Trung,Huế,Thực phẩm,5,67000,0.1,302000,111000.0,15000,False,False,Thực phẩm,False,2026-04
+L00776,DH0504,2026-06-24,Miền Nam,TP.HCM,Đồ uống,4,80000,0.05,304000,94000.0,41000,False,False,Đồ uống,False,2026-06
+L00777,DH0465,2026-05-19,Miền Nam,Cần Thơ,Thực phẩm,6,88000,0.05,502000,165000.0,54000,False,False,Thực phẩm,False,2026-05
+L00778,DH0150,2026-05-25,Miền Bắc,Hà Nội,Gia dụng,2,93000,0.05,177000,60000.0,10000,False,False,Gia dụng,False,2026-05
+L00779,DH0452,2026-05-23,Miền Nam,Cần Thơ,Đồ uống,1,74000,0.05,70000,18000.0,62000,False,False,Đồ uống,False,2026-05
+L00780,DH0161,2026-04-15,Miền Bắc,Hà Nội,Gia dụng,5,36000,0.0,180000,62000.0,66000,False,False,Gia dụng,False,2026-04
+L00781,DH0201,2026-05-23,Miền Nam,TP.HCM,Chăm sóc cá nhân,2,63000,0.05,120000,33000.0,26000,False,False,Chăm sóc cá nhân,False,2026-05
+L00782,DH0374,2026-06-08,Miền Nam,Cần Thơ,Đồ uống,4,50000,0.05,190000,55000.0,67000,False,False,Đồ uống,False,2026-06
+L00783,DH0028,2026-04-04,Miền Bắc,Hà Nội,Thực phẩm,5,92000,0.1,414000,136000.0,41000,False,False,Thực phẩm,False,2026-04
+L00784,DH0493,2026-05-04,Miền Nam,Cần Thơ,Gia dụng,4,118000,0.0,472000,186000.0,28000,False,False,Gia dụng,False,2026-05
+L00785,DH0288,2026-04-26,Miền Trung,Huế,Thực phẩm,2,56000,0.0,112000,46000.0,17000,False,False,Thực phẩm,False,2026-04
+L00786,DH0318,2026-05-25,Miền Bắc,Hải Phòng,Thực phẩm,4,93000,0.05,353000,127000.0,54000,False,False,Thực phẩm,False,2026-05
+L00787,DH0097,2026-06-22,Miền Trung,Đà Nẵng,Đồ uống,1,79000,0.05,75000,13000.0,35000,False,False,Đồ uống,False,2026-06
+L00788,DH0389,2026-05-05,Miền Bắc,Hải Phòng,Văn phòng phẩm,6,60000,0.0,360000,52000.0,25000,False,False,Văn phòng phẩm,False,2026-05
+L00789,DH0242,2026-04-06,Miền Trung,Huế,Thực phẩm,3,124000,0.1,335000,140000.0,53000,False,False,Thực phẩm,False,2026-04
+L00790,DH0286,2026-05-29,Miền Nam,TP.HCM,Đồ uống,6,54000,0.05,308000,51000.0,47000,False,False,Đồ uống,False,2026-05
+L00791,DH0116,2026-04-29,Miền Nam,Cần Thơ,Đồ uống,4,49000,0.05,186000,66000.0,58000,False,False,Đồ uống,False,2026-04
+L00792,DH0254,2026-06-02,Miền Nam,Cần Thơ,Đồ uống,1,45000,0.0,45000,17000.0,30000,False,False,Đồ uống,False,2026-06
+L00793,DH0464,2026-04-13,Miền Nam,TP.HCM,Chăm sóc cá nhân,3,106000,0.1,286000,120000.0,27000,False,False,Chăm sóc cá nhân,False,2026-04
+L00794,DH0494,2026-04-26,Miền Trung,Huế,Đồ uống,6,47000,0.0,282000,110000.0,16000,False,False,Đồ uống,False,2026-04
+L00795,DH0372,2026-05-06,Miền Nam,TP.HCM,Gia dụng,4,47000,0.0,188000,78000.0,60000,False,False,Gia dụng,False,2026-05
+L00796,DH0125,2026-06-15,Miền Nam,Cần Thơ,Văn phòng phẩm,6,107000,0.0,642000,230000.0,53000,False,False,Văn phòng phẩm,False,2026-06
+L00797,DH0412,2026-05-21,Miền Trung,Đà Nẵng,Thực phẩm,1,78000,0.05,74000,11000.0,14000,False,False,Thực phẩm,False,2026-05
+L00798,DH0514,2026-05-27,Miền Bắc,Hải Phòng,Thực phẩm,2,62000,0.05,118000,20000.0,11000,False,False,Thực phẩm,False,2026-05
+L00799,DH0066,2026-06-04,Miền Trung,Đà Nẵng,Đồ uống,3,45000,0.1,122000,25000.0,29000,False,False,Đồ uống,False,2026-06
+L00800,DH0210,2026-05-26,Miền Nam,TP.HCM,Đồ uống,1,74000,0.0,74000,16000.0,21000,False,False,Đồ uống,False,2026-05
+L00801,DH0095,2026-06-20,Miền Nam,Cần Thơ,Thực phẩm,1,41000,0.1,37000,11000.0,31000,False,False,Thực phẩm,False,2026-06
+L00802,DH0453,2026-04-20,Miền Bắc,Hà Nội,Gia dụng,2,72000,0.0,144000,52000.0,43000,False,False,Gia dụng,False,2026-04
+L00803,DH0422,2026-05-29,Miền Nam,Cần Thơ,Thực phẩm,5,71000,0.1,320000,102000.0,32000,False,False,Thực phẩm,False,2026-05
+L00804,DH0454,2026-04-24,Miền Nam,Cần Thơ,Chăm sóc cá nhân,3,64000,0.0,192000,50000.0,28000,False,False,Chăm sóc cá nhân,False,2026-04
+L00805,DH0327,2026-05-21,Miền Bắc,Hà Nội,Chăm sóc cá nhân,1,72000,0.05,68000,20000.0,41000,False,False,Chăm sóc cá nhân,False,2026-05
+L00806,DH0330,2026-05-06,Miền Nam,TP.HCM,Thực phẩm,4,87000,0.05,331000,94000.0,55000,False,False,Thực phẩm,False,2026-05
+L00807,DH0069,2026-06-23,Miền Trung,Đà Nẵng,Thực phẩm,3,29000,0.0,87000,30000.0,49000,False,False,Thực phẩm,False,2026-06
+L00808,DH0033,2026-04-04,Miền Trung,Huế,Thực phẩm,4,41000,0.1,148000,60000.0,54000,False,False,Thực phẩm,False,2026-04
+L00809,DH0115,2026-05-20,Miền Nam,TP.HCM,Thực phẩm,3,92000,0.0,276000,71000.0,68000,False,False,Thực phẩm,False,2026-05
+L00810,DH0474,2026-04-05,Miền Nam,TP.HCM,Thực phẩm,2,62000,0.15,105000,24000.0,55000,False,False,Thực phẩm,False,2026-04
+L00811,DH0294,2026-05-04,Miền Nam,Cần Thơ,Thực phẩm,5,97000,0.0,485000,69000.0,24000,False,False,Thực phẩm,False,2026-05
+L00812,DH0318,2026-05-31,Miền Nam,TP.HCM,Đồ uống,1,142000,0.0,142000,26000.0,67000,False,False,Đồ uống,False,2026-05
+L00813,DH0015,2026-04-22,Miền Bắc,Hải Phòng,Văn phòng phẩm,3,133000,0.05,379000,96000.0,49000,False,False,Văn phòng phẩm,False,2026-04
+L00814,DH0010,2026-04-29,Miền Trung,Huế,Đồ uống,1,103000,0.0,103000,29000.0,53000,False,False,Đồ uống,False,2026-04
+L00815,DH0198,2026-06-01,Miền Bắc,Hà Nội,Đồ uống,4,69000,0.05,262000,104000.0,63000,False,False,Đồ uống,False,2026-06
+L00816,DH0066,2026-06-05,Miền Trung,Đà Nẵng,Đồ uống,5,113000,0.0,565000,148000.0,65000,False,False,Đồ uống,False,2026-06
+L00817,DH0190,2026-05-29,Miền Nam,TP.HCM,Thực phẩm,1,51000,0.1,46000,20000.0,34000,False,False,Thực phẩm,False,2026-05
+L00818,DH0492,2026-04-07,Miền Trung,Đà Nẵng,Thực phẩm,4,73000,0.0,292000,100000.0,17000,False,False,Thực phẩm,False,2026-04
+L00819,DH0102,2026-05-01,Miền Nam,Cần Thơ,Thực phẩm,4,59000,0.05,224000,94000.0,48000,False,False,Thực phẩm,False,2026-05
+L00820,DH0531,2026-06-07,Miền Bắc,Hà Nội,Chăm sóc cá nhân,2,54000,0.1,97000,14000.0,57000,False,False,Chăm sóc cá nhân,False,2026-06
+L00821,DH0327,2026-06-18,Miền Nam,Cần Thơ,Thực phẩm,1,48000,0.15,41000,9000.0,22000,False,False,Thực phẩm,False,2026-06
+L00822,DH0077,2026-04-20,Miền Bắc,Hà Nội,Đồ uống,4,80000,0.0,320000,119000.0,26000,False,False,Đồ uống,False,2026-04
+L00823,DH0350,2026-05-06,Miền Bắc,Hà Nội,Thực phẩm,5,33000,0.0,165000,32000.0,13000,False,False,Thực phẩm,False,2026-05
+L00824,DH0452,2026-06-19,Miền Trung,Huế,Thực phẩm,2,28000,0.1,50000,16000.0,37000,False,False,Thực phẩm,False,2026-06
+L00825,DH0376,2026-04-12,Miền Nam,Cần Thơ,Thực phẩm,6,104000,0.05,593000,204000.0,70000,False,False,Thực phẩm,False,2026-04
+L00826,DH0116,2026-06-22,Miền Nam,Cần Thơ,Thực phẩm,5,80000,0.05,380000,95000.0,17000,False,False,Thực phẩm,False,2026-06
+L00827,DH0201,2026-05-05,Miền Bắc,Hải Phòng,Thực phẩm,2,96000,0.05,182000,68000.0,61000,False,False,Thực phẩm,False,2026-05
+L00828,DH0497,2026-06-02,Miền Bắc,Hà Nội,Thực phẩm,3,63000,0.0,189000,82000.0,46000,False,False,Thực phẩm,False,2026-06
+L00829,DH0357,2026-05-11,Miền Bắc,Hải Phòng,Đồ uống,2,82000,0.05,156000,45000.0,33000,False,False,Đồ uống,False,2026-05
+L00830,DH0169,2026-05-06,Miền Nam,TP.HCM,Thực phẩm,4,53000,0.05,201000,36000.0,58000,False,False,Thực phẩm,False,2026-05
+L00831,DH0287,2026-05-05,Miền Nam,TP.HCM,Gia dụng,6,53000,0.05,302000,113000.0,69000,False,False,Gia dụng,False,2026-05
+L00832,DH0437,2026-04-03,Miền Nam,Cần Thơ,Văn phòng phẩm,2,40000,0.0,80000,25000.0,67000,False,False,Văn phòng phẩm,False,2026-04
+L00833,DH0259,2026-06-22,Miền Nam,Cần Thơ,Thực phẩm,2,148000,0.0,296000,127000.0,50000,False,False,Thực phẩm,False,2026-06
+L00834,DH0100,2026-06-09,Miền Trung,Đà Nẵng,Thực phẩm,5,43000,0.05,204000,30000.0,27000,False,False,Thực phẩm,False,2026-06
+L00835,DH0133,2026-06-24,Miền Nam,TP.HCM,Đồ uống,1,134000,0.05,127000,52000.0,70000,False,False,Đồ uống,False,2026-06
+L00836,DH0489,2026-05-22,Miền Trung,Đà Nẵng,Thực phẩm,6,39000,0.1,211000,46000.0,52000,False,False,Thực phẩm,False,2026-05
+L00837,DH0390,2026-06-27,Miền Nam,Cần Thơ,Chăm sóc cá nhân,5,44000,0.0,220000,74000.0,67000,False,False,Chăm sóc cá nhân,False,2026-06
+L00838,DH0332,2026-04-08,Miền Bắc,Hà Nội,Đồ uống,3,114000,0.05,325000,138000.0,18000,False,False,Đồ uống,False,2026-04
+L00839,DH0059,2026-05-03,Miền Nam,TP.HCM,Thực phẩm,1,86000,0.0,86000,15000.0,52000,False,False,Thực phẩm,False,2026-05
+L00840,DH0158,2026-05-22,Miền Bắc,Hải Phòng,Văn phòng phẩm,5,80000,0.0,400000,167000.0,68000,False,False,Văn phòng phẩm,False,2026-05
+L00841,DH0317,2026-05-14,Miền Trung,Đà Nẵng,Gia dụng,1,44000,0.0,44000,19000.0,11000,False,False,Gia dụng,False,2026-05
+L00842,DH0319,2026-04-01,Miền Bắc,Hà Nội,Gia dụng,2,102000,0.15,173000,58000.0,38000,False,False,Gia dụng,False,2026-04
+L00843,DH0058,2026-04-10,Miền Trung,Đà Nẵng,Thực phẩm,4,45000,0.0,180000,72000.0,9000,False,False,Thực phẩm,False,2026-04
+L00844,DH0533,2026-05-12,Miền Bắc,Hà Nội,Đồ uống,2,76000,0.0,152000,35000.0,23000,False,False,Đồ uống,False,2026-05
+L00845,DH0013,2026-06-15,Miền Nam,Cần Thơ,Thực phẩm,1,48000,0.0,48000,8000.0,25000,False,False,Thực phẩm,False,2026-06
+L00846,DH0201,2026-05-26,Miền Nam,TP.HCM,Thực phẩm,1,132000,0.0,132000,52000.0,47000,False,False,Thực phẩm,False,2026-05
+L00847,DH0497,2026-04-27,Miền Bắc,Hải Phòng,Đồ uống,2,79000,0.05,150000,32000.0,41000,False,False,Đồ uống,False,2026-04
+L00848,DH0462,2026-06-13,Miền Nam,TP.HCM,Thực phẩm,5,121000,0.1,544000,160000.0,46000,False,False,Thực phẩm,False,2026-06
+L00849,DH0047,2026-06-20,Miền Nam,Cần Thơ,Thực phẩm,4,62000,0.1,223000,93000.0,33000,False,False,Thực phẩm,False,2026-06
+L00850,DH0330,2026-04-27,Miền Nam,Cần Thơ,Gia dụng,6,48000,0.1,259000,82000.0,44000,False,False,Gia dụng,False,2026-04
+L00851,DH0272,2026-06-23,Miền Nam,Cần Thơ,Gia dụng,1,36000,0.0,36000,10000.0,25000,False,False,Gia dụng,False,2026-06
+L00852,DH0009,2026-04-22,Miền Nam,TP.HCM,Đồ uống,2,74000,0.0,148000,54000.0,36000,False,False,Đồ uống,False,2026-04
+L00853,DH0248,2026-05-23,Miền Nam,Cần Thơ,Gia dụng,5,113000,0.0,565000,233000.0,64000,False,False,Gia dụng,False,2026-05
+L00854,DH0314,2026-05-01,Miền Nam,Cần Thơ,Thực phẩm,3,84000,0.1,227000,62000.0,35000,False,False,Thực phẩm,False,2026-05
+L00855,DH0180,2026-06-05,Miền Nam,Cần Thơ,Thực phẩm,5,48000,0.0,240000,,70000,False,True,Thực phẩm,False,2026-06
+L00856,DH0398,2026-04-06,Miền Nam,Cần Thơ,Gia dụng,3,54000,0.0,162000,55000.0,56000,False,False,Gia dụng,False,2026-04
+L00857,DH0126,2026-04-05,Miền Trung,Huế,Thực phẩm,6,54000,0.05,308000,133000.0,64000,False,False,Thực phẩm,False,2026-04
+L00858,DH0313,2026-06-24,Miền Bắc,Hải Phòng,Gia dụng,2,65000,0.1,117000,30000.0,48000,False,False,Gia dụng,False,2026-06
+L00859,DH0197,2026-04-17,Miền Nam,Cần Thơ,Văn phòng phẩm,4,90000,0.0,360000,57000.0,61000,False,False,Văn phòng phẩm,False,2026-04
+L00860,DH0471,2026-06-20,Miền Bắc,Hà Nội,Thực phẩm,6,71000,0.0,426000,63000.0,39000,False,False,Thực phẩm,False,2026-06
+L00861,DH0144,2026-05-31,Miền Nam,TP.HCM,Gia dụng,6,91000,0.0,546000,103000.0,36000,False,False,Gia dụng,False,2026-05
+L00862,DH0199,2026-05-25,Miền Nam,TP.HCM,Đồ uống,4,81000,0.0,324000,136000.0,27000,False,False,Đồ uống,False,2026-05
+L00863,DH0464,2026-06-06,Miền Nam,Cần Thơ,Thực phẩm,2,42000,0.0,84000,25000.0,61000,False,False,Thực phẩm,False,2026-06
+L00864,DH0380,2026-04-07,Miền Bắc,Hà Nội,Đồ uống,5,69000,0.0,345000,101000.0,24000,False,False,Đồ uống,False,2026-04
+L00865,DH0051,2026-04-05,Miền Nam,TP.HCM,Gia dụng,2,42000,0.15,71000,29000.0,63000,False,False,Gia dụng,False,2026-04
+L00866,DH0504,2026-04-08,Miền Nam,TP.HCM,Thực phẩm,4,69000,0.1,248000,106000.0,60000,False,False,Thực phẩm,False,2026-04
+L00867,DH0067,2026-04-02,Miền Bắc,Hà Nội,Đồ uống,2,81000,0.05,154000,39000.0,56000,False,False,Đồ uống,False,2026-04
+L00868,DH0120,2026-06-24,Miền Nam,TP.HCM,Văn phòng phẩm,4,47000,0.1,169000,73000.0,22000,False,False,Văn phòng phẩm,False,2026-06
+L00869,DH0261,2026-05-11,Miền Nam,TP.HCM,Thực phẩm,5,37000,0.05,176000,31000.0,66000,False,False,Thực phẩm,False,2026-05
+L00870,DH0072,2026-04-12,Miền Nam,TP.HCM,Đồ uống,5,73000,0.0,365000,111000.0,44000,False,False,Đồ uống,False,2026-04
+L00871,DH0032,2026-04-29,Miền Trung,Đà Nẵng,Đồ uống,4,63000,0.1,227000,94000.0,41000,False,False,Đồ uống,False,2026-04
+L00872,DH0307,2026-04-14,Miền Nam,Cần Thơ,Gia dụng,6,112000,0.1,605000,203000.0,57000,False,False,Gia dụng,False,2026-04
+L00873,DH0022,2026-06-22,Miền Bắc,Hải Phòng,Thực phẩm,6,49000,0.05,279000,68000.0,10000,False,False,Thực phẩm,False,2026-06
+L00874,DH0458,2026-06-11,Miền Nam,Cần Thơ,Thực phẩm,5,138000,0.0,690000,261000.0,38000,False,False,Thực phẩm,True,2026-06
+L00875,DH0392,2026-04-01,Miền Nam,Cần Thơ,Thực phẩm,4,89000,0.05,338000,129000.0,39000,False,False,Thực phẩm,False,2026-04
+L00876,DH0115,2026-04-28,Miền Nam,Cần Thơ,Văn phòng phẩm,5,34000,0.0,170000,58000.0,17000,False,False,Văn phòng phẩm,False,2026-04
+L00877,DH0375,2026-05-30,Miền Bắc,Hải Phòng,Thực phẩm,1,49000,0.15,42000,17000.0,59000,False,False,Thực phẩm,False,2026-05
+L00878,DH0504,2026-05-08,Miền Nam,TP.HCM,Đồ uống,5,67000,0.0,335000,148000.0,34000,False,False,Đồ uống,False,2026-05
+L00879,DH0312,2026-04-21,Miền Nam,Cần Thơ,Gia dụng,2,63000,0.05,120000,17000.0,10000,False,False,Gia dụng,False,2026-04
+L00880,DH0375,2026-05-08,Miền Bắc,Hà Nội,Văn phòng phẩm,3,45000,0.0,135000,33000.0,25000,False,False,Văn phòng phẩm,False,2026-05
+L00881,DH0105,2026-05-09,Miền Nam,TP.HCM,Đồ uống,4,29000,0.05,110000,21000.0,67000,False,False,Đồ uống,False,2026-05
+L00882,DH0378,2026-06-03,Miền Nam,Cần Thơ,,6,58000,0.15,296000,73000.0,23000,True,False,Chưa phân loại,False,2026-06
+L00883,DH0363,2026-05-21,Miền Nam,Cần Thơ,Đồ uống,1,60000,0.1,54000,20000.0,39000,False,False,Đồ uống,False,2026-05
+L00884,DH0476,2026-05-13,Miền Nam,TP.HCM,Chăm sóc cá nhân,2,86000,0.05,163000,41000.0,15000,False,False,Chăm sóc cá nhân,False,2026-05
+L00885,DH0408,2026-05-26,Miền Bắc,Hải Phòng,Thực phẩm,6,72000,0.15,367000,109000.0,14000,False,False,Thực phẩm,False,2026-05
+L00886,DH0518,2026-06-13,Miền Nam,TP.HCM,Chăm sóc cá nhân,4,41000,0.0,164000,62000.0,59000,False,False,Chăm sóc cá nhân,False,2026-06
+L00887,DH0411,2026-04-09,Miền Trung,Huế,Văn phòng phẩm,6,94000,0.05,536000,172000.0,50000,False,False,Văn phòng phẩm,False,2026-04
+L00888,DH0102,2026-05-16,Miền Trung,Huế,Chăm sóc cá nhân,6,51000,0.05,291000,96000.0,48000,False,False,Chăm sóc cá nhân,False,2026-05
+L00889,DH0313,2026-06-08,Miền Bắc,Hải Phòng,Gia dụng,5,102000,0.05,484000,70000.0,69000,False,False,Gia dụng,False,2026-06
+L00890,DH0475,2026-04-27,Miền Bắc,Hải Phòng,Thực phẩm,1,54000,0.0,54000,10000.0,53000,False,False,Thực phẩm,False,2026-04
+L00891,DH0231,2026-06-18,Miền Bắc,Hà Nội,Đồ uống,1,52000,0.0,52000,20000.0,20000,False,False,Đồ uống,False,2026-06
+L00892,DH0326,2026-04-18,Miền Bắc,Hải Phòng,Thực phẩm,2,66000,0.0,132000,58000.0,43000,False,False,Thực phẩm,False,2026-04
+L00893,DH0170,2026-04-04,Miền Trung,Đà Nẵng,Đồ uống,6,94000,0.0,564000,148000.0,51000,False,False,Đồ uống,False,2026-04
+L00894,DH0516,2026-06-08,Miền Trung,Huế,Chăm sóc cá nhân,3,74000,0.0,222000,99000.0,35000,False,False,Chăm sóc cá nhân,False,2026-06
+L00895,DH0287,2026-06-09,Miền Nam,Cần Thơ,Chăm sóc cá nhân,5,37000,0.1,166000,27000.0,69000,False,False,Chăm sóc cá nhân,False,2026-06
+L00896,DH0041,2026-04-20,Miền Trung,Huế,Gia dụng,6,102000,0.1,551000,78000.0,67000,False,False,Gia dụng,False,2026-04
+L00897,DH0453,2026-06-30,Miền Trung,Huế,Thực phẩm,1,49000,0.0,49000,15000.0,43000,False,False,Thực phẩm,False,2026-06
+L00898,DH0455,2026-05-26,Miền Bắc,Hà Nội,Gia dụng,3,35000,0.1,94000,39000.0,28000,False,False,Gia dụng,False,2026-05
+L00899,DH0243,2026-04-04,Miền Bắc,Hà Nội,Thực phẩm,1,31000,0.1,28000,7000.0,49000,False,False,Thực phẩm,False,2026-04
+L00900,DH0131,2026-05-25,Miền Trung,Huế,Đồ uống,3,119000,0.05,339000,60000.0,38000,False,False,Đồ uống,False,2026-05
